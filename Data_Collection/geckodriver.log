@@ -1,0 +1,111 @@
+1550706126311	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/vs/9lkblj956n97ty2sxxgjb82h0000gn/T/rust_mozprofile.P43N0iGUV6Gt"
+*** You are running in headless mode.
+1550706126872	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550706126872	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550706128254	Marionette	INFO	Listening on port 53391
+1550706128261	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+JavaScript error: https://static.adsafeprotected.com/sca.17.4.95.js, line 33: TypeError: The ReadableStream reader was released.
+1550706449475	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/vs/9lkblj956n97ty2sxxgjb82h0000gn/T/rust_mozprofile.YPWCwFTX1nVj"
+*** You are running in headless mode.
+1550706449883	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550706449883	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550706451073	Marionette	INFO	Listening on port 53651
+1550706451115	Marionette	WARN	TLS certificate errors will be ignored for this session
+1550706845635	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/vs/9lkblj956n97ty2sxxgjb82h0000gn/T/rust_mozprofile.A7qdvUOis1KK"
+*** You are running in headless mode.
+1550706846090	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550706846090	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550706847753	Marionette	INFO	Listening on port 53869
+1550706847777	Marionette	WARN	TLS certificate errors will be ignored for this session
+1550706920573	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/vs/9lkblj956n97ty2sxxgjb82h0000gn/T/rust_mozprofile.YRoSQ83TQWEr"
+1550706921203	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550706921204	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+Can't find symbol 'GetGraphicsResetStatus'.
+1550706922721	Marionette	INFO	Listening on port 54012
+1550706922813	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.goodreads.com/, line 31: ReferenceError: WebFont is not defined
+JavaScript error: https://s.gr-assets.com/assets/application-99258ee9ea053650c9e39daf9b7607f5.js, line 1: ReferenceError: $j is not defined
+JavaScript error: https://www.goodreads.com/, line 803: ReferenceError: Tip is not defined
+JavaScript error: https://www.goodreads.com/, line 879: ReferenceError: Tip is not defined
+JavaScript error: https://www.goodreads.com/, line 937: ReferenceError: Tip is not defined
+JavaScript error: https://www.goodreads.com/, line 1344: ReferenceError: $grfb is not defined
+JavaScript error: https://s.gr-assets.com/assets/application-99258ee9ea053650c9e39daf9b7607f5.js, line 1: TypeError: Cookies is undefined
+JavaScript error: https://s.gr-assets.com/assets/react_client_side/site_header-56b7a8a08f.js, line 1: ReferenceError: Modernizr is not defined
+1550706952906	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1550706973792	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1550706994885	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1550707036477	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+1550707057433	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:196:64
+JavaScript error: https://static.adsafeprotected.com/sca.17.4.95.js, line 33: TypeError: The ReadableStream reader was released.
+Can't find symbol 'GetGraphicsResetStatus'.
+1550707525462	Marionette	INFO	Stopped listening on port 54012
+1550707546983	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/vs/9lkblj956n97ty2sxxgjb82h0000gn/T/rust_mozprofile.Qs2KDAK1d9FD"
+*** You are running in headless mode.
+1550707547435	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550707547436	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550707548744	Marionette	INFO	Listening on port 54485
+1550707548823	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.adsafeprotected.com/sca.17.4.95.js, line 33: TypeError: The ReadableStream reader was released.
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+console.error: BroadcastService: 
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+1550709792431	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/vs/9lkblj956n97ty2sxxgjb82h0000gn/T/rust_mozprofile.pHbX3BNYlzEy"
+*** You are running in headless mode.
+1550709792837	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550709792837	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550709794094	Marionette	INFO	Listening on port 54909
+1550709794170	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.adsafeprotected.com/sca.17.4.95.js, line 33: TypeError: The ReadableStream reader was released.
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:188:13
+
+JavaScript error: https://static.adsafeprotected.com/sca.17.4.95.js, line 33: TypeError: The ReadableStream reader was released.
+1550710576612	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/vs/9lkblj956n97ty2sxxgjb82h0000gn/T/rust_mozprofile.uhMlQe2vETVF"
+*** You are running in headless mode.
+1550710576991	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1550710576991	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1550710578142	Marionette	INFO	Listening on port 55491
+1550710578151	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static.adsafeprotected.com/sca.17.4.95.js, line 33: TypeError: The ReadableStream reader was released.
+JavaScript error: https://static.adsafeprotected.com/sca.17.4.95.js, line 33: TypeError: The ReadableStream reader was released.
+1550711115263	Marionette	INFO	Stopped listening on port 55491
