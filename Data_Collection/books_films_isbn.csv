@@ -1,4 +1,4 @@
-,id,BookTitle,BookAltTitle,BookYear,BookLink,Author,FilmTitle,FilmLink,FilmYear,ISBN
+id_repeat,id,BookTitle,BookAltTitle,BookYear,BookLink,Author,FilmTitle,FilmLink,FilmYear,ISBN
 0,0,The A.B.C. Murders,,1936,/wiki/The_A.B.C._Murders,Agatha Christie,The Alphabet Murders,/wiki/The_Alphabet_Murders,1966,978-1-57912-624-7
 1,1,The A.B.C. Murders,,1936,/wiki/The_A.B.C._Murders,Agatha Christie,The A.B.C. Murders,/wiki/List_of_Agatha_Christie%27s_Poirot_episodes#Series_Four_(1992),1992,978-1-57912-624-7
 2,2,À ton image,,1998,,Louise L. Lambrichs,À ton image,/wiki/%C3%80_ton_image,2004,
@@ -6,7 +6,7 @@
 4,4,About a Boy,,1998,/wiki/About_a_Boy_(novel),Nick Hornby,About a Boy,/wiki/About_a_Boy_(film),2002,0-575-06159-6
 5,5,About Schmidt,,1996,,Louis Begley,About Schmidt,/wiki/About_Schmidt,2002,
 6,6,Absolute Power,,1996,/wiki/Absolute_Power_(novel),David Baldacci,Absolute Power,/wiki/Absolute_Power_(film),1997,978-0-446-60358-4
-7,7,The Accidental Tourist,,1985,/wiki/The_Accidental_Tourist,Anne Tyler,The Accidental Tourist,/wiki/The_Accidental_Tourist_(film),1988,9.78035E+12
+7,7,The Accidental Tourist,,1985,/wiki/The_Accidental_Tourist,Anne Tyler,The Accidental Tourist,/wiki/The_Accidental_Tourist_(film),1988,9.78E+12
 8,8,Across 110th,,1970,,,Across 110th Street,/wiki/Across_110th_Street,1972,
 9,9,Adam Resurrected,"Man, Son of a Dog",1971,,Yoram Kaniuk,Adam Resurrected,/wiki/Adam_Resurrected,2009,
 10,10,Adams Fall,,2000,/wiki/Adams_Fall,,Abandon,/wiki/Abandon_(2002_film),2002,978-0-312-26254-9
@@ -89,9 +89,9 @@
 87,87,The Age of Innocence,,1921,/wiki/The_Age_of_Innocence,Edith Wharton,The Age of Innocence,"/wiki/The_Age_of_Innocence#Film,_TV_or_theatrical_adaptations_-_The_Age_of_Innocence_(1934_film)",1934,
 88,88,The Age of Innocence,,1921,/wiki/The_Age_of_Innocence,Edith Wharton,The Age of Innocence,/wiki/The_Age_of_Innocence_(1993_film),1993,
 89,89,The Agony and the Ecstasy,,1961,/wiki/The_Agony_and_the_Ecstasy_(novel),Irving Stone,The Agony and the Ecstasy,/wiki/The_Agony_and_the_Ecstasy_(film),1965,0-451-21323-8
-90,90,Äideistä parhain,Mother of Mine,1999,,,Äideistä parhain,/wiki/%C3%84ideist%C3%A4_parhain,,
-91,91,Äideistä parhain,Mother of Mine,1999,,,Mother of Mine,,2005,
-92,92,Äideistä parhain,Mother of Mine,1999,,,Den bästa av mödrar,,,
+90,90,Äideistä parhain,Mother of Mine,1999,,Heikki Hietamies,Äideistä parhain,/wiki/%C3%84ideist%C3%A4_parhain,,
+91,91,Äideistä parhain,Mother of Mine,1999,,Heikki Hietamies,Mother of Mine,,2005,
+92,92,Äideistä parhain,Mother of Mine,1999,,Heikki Hietamies,Den bästa av mödrar,,,
 93,93,Aimez-vous Brahms?,,1959,/wiki/Aimez-vous_Brahms%3F,Françoise Sagan,Goodbye Again,/wiki/Goodbye_Again_(1961_film),1961,
 94,94,Aimez-vous Brahms?,,1959,/wiki/Aimez-vous_Brahms%3F,Françoise Sagan,Jahan Tum Le Chalo,/wiki/Jahan_Tum_Le_Chalo,1999,
 95,95,Air America,,1985,,,Air America,/wiki/Air_America_(film),1990,
@@ -102,7 +102,7 @@
 100,100,Airport,,1968,/wiki/Airport_(novel),Arthur Hailey,The Concorde ... Airport '79,/wiki/The_Concorde_..._Airport_%2779,1979,
 101,101,Alice Adams,,1921,/wiki/Alice_Adams_(novel),Booth Tarkington,Alice Adams,/wiki/Alice_Adams_(1923_film),1923,
 102,102,Alice Adams,,1921,/wiki/Alice_Adams_(novel),Booth Tarkington,Alice Adams,/wiki/Alice_Adams_(film),1935,
-103,103,Allan Quatermain,,1887,/wiki/Allan_Quatermain,,Allan Quatermain and the Lost City of Gold,/wiki/Allan_Quatermain_and_the_Lost_City_of_Gold,1987,
+103,103,Allan Quatermain,,1887,/wiki/Allan_Quatermain,Sir H. Rider Haggard,Allan Quatermain and the Lost City of Gold,/wiki/Allan_Quatermain_and_the_Lost_City_of_Gold,1987,
 104,104,All Fall Down,,1960,/wiki/All_Fall_Down_(novel),James Leo Herlihy,All Fall Down,/wiki/All_Fall_Down_(film),1962,
 105,105,All the Brothers Were Valiant,,1919,/wiki/All_the_Brothers_Were_Valiant_(novel),Ben Ames Williams,All the Brothers Were Valiant,/wiki/All_the_Brothers_Were_Valiant_(1923_film),1923,
 106,106,All the Brothers Were Valiant,,1919,/wiki/All_the_Brothers_Were_Valiant_(novel),Ben Ames Williams,Across to Singapore,/wiki/Across_to_Singapore,1928,
@@ -111,8 +111,8 @@
 109,109,All the King's Men,,1946,/wiki/All_the_King%27s_Men,Robert Penn Warren,All the King's Men,/wiki/All_the_King%27s_Men_(2006_film),2006,
 110,110,All the Pretty Horses,,1992,/wiki/All_the_Pretty_Horses_(novel),Cormac McCarthy,All the Pretty Horses,/wiki/All_the_Pretty_Horses_(film),2000,0-394-57474-5
 111,111,All the Rivers Run,,1958,,Nancy Cato,All the Rivers Run,/wiki/All_the_Rivers_Run,1983,
-112,112,All the Way,,2001,,,Sex Drive,/wiki/Sex_Drive_(film),2008,
-113,113,All You Need Is Kill,,2009,,,Edge of Tomorrow,/wiki/Edge_of_Tomorrow_(film),2014,
+112,112,All the Way,,2001,,Andy Behrens,Sex Drive,/wiki/Sex_Drive_(film),2008,
+113,113,All You Need Is Kill,,2009,, Hiroshi Sakurazaka,Edge of Tomorrow,/wiki/Edge_of_Tomorrow_(film),2014,
 114,114,Almayer's Folly,,1895,/wiki/Almayer%27s_Folly,Joseph Conrad,Hanyut,/wiki/Hanyut/Almayer%27s_Folly_(film),2011,
 115,115,Almayer's Folly,,1895,/wiki/Almayer%27s_Folly,Joseph Conrad,Almayer's Folly,/wiki/Almayer%27s_Folly_(film),2011,
 116,116,Along Came a Spider,,1993,/wiki/Along_Came_a_Spider_(novel),James Patterson,Along Came a Spider,/wiki/Along_Came_a_Spider_(film),2001,0-316-69364-2
@@ -229,7 +229,7 @@
 227,227,The Asphalt Jungle,,1949,,W. R. Burnett,The Asphalt Jungle,/wiki/The_Asphalt_Jungle,1950,
 228,228,The Asphalt Jungle,,1949,,W. R. Burnett,The Badlanders,/wiki/The_Badlanders,1959,
 229,229,"The Assassination Bureau, Ltd",,1963,"/wiki/The_Assassination_Bureau,_Ltd",Jack London,The Assassination Bureau,/wiki/The_Assassination_Bureau,1969,0-14-018677-8
-230,230,The Assassination of Jesse James by the Coward Robert Ford,,1983,/wiki/The_Assassination_of_Jesse_James_by_the_Coward_Robert_Ford_(novel),Ron Hansen,The Assassination of Jesse James by the Coward Robert Ford,/wiki/The_Assassination_of_Jesse_James_by_the_Coward_Robert_Ford,2007,9.78039E+12
+230,230,The Assassination of Jesse James by the Coward Robert Ford,,1983,/wiki/The_Assassination_of_Jesse_James_by_the_Coward_Robert_Ford_(novel),Ron Hansen,The Assassination of Jesse James by the Coward Robert Ford,/wiki/The_Assassination_of_Jesse_James_by_the_Coward_Robert_Ford,2007,9.78E+12
 231,231,L'Assommoir,,1877,/wiki/L%27Assommoir,Émile Zola,Gervaise,/wiki/Gervaise_(film),1956,
 232,232,Assunta Spina,,1908,/w/index.php?title=Assunta_Spina_(play)&action=edit&redlink=1,Salvatore Di Giacomo,Assunta Spina,/wiki/Assunta_Spina_(1915_film),1915,
 233,233,Assunta Spina,,1908,/w/index.php?title=Assunta_Spina_(play)&action=edit&redlink=1,Salvatore Di Giacomo,Assunta Spina,/wiki/Assunta_Spina_(1930_film),1930,
@@ -251,7 +251,7 @@
 249,249,Away All Boats,,1953,,,Away All Boats,/wiki/Away_All_Boats,1956,
 250,250,An Awfully Big Adventure,,1989,/wiki/An_Awfully_Big_Adventure_(novel),Beryl Bainbridge,An Awfully Big Adventure,/wiki/An_Awfully_Big_Adventure,1995,978-0-7531-5120-4
 251,251,The Ax,,1997,,Donald E. Westlake,Le Couperet,/wiki/Le_Couperet,2005,
-252,252,Ayat-Ayat Cinta,The Verses of Love,2005,,,Ayat-Ayat Cinta,/wiki/Ayat-Ayat_Cinta,2008,
+252,252,Ayat-Ayat Cinta,The Verses of Love,2005,,Habiburrahman El Shirazy,Ayat-Ayat Cinta,/wiki/Ayat-Ayat_Cinta,2008,
 253,253,Baby Love,,1968,,,Baby Love,/wiki/Baby_Love_(1968_film),1968,
 254,254,Babylon Babies,,1999,/wiki/Babylon_Babies,Maurice Georges Dantec,Babylon A.D.,/wiki/Babylon_A.D.,2008,978-1-58435-023-1
 255,255,Back Street,,1931,/wiki/Back_Street_(novel),Fannie Hurst,Back Street,/wiki/Back_Street_(1932_film),1932,
@@ -304,7 +304,7 @@
 302,302,Beau Geste,,1924,/wiki/Beau_Geste,P. C. Wren,Follow That Camel,/wiki/Follow_That_Camel,1967,
 303,303,Beau Geste,,1924,/wiki/Beau_Geste,P. C. Wren,The Last Remake of Beau Geste,/wiki/The_Last_Remake_of_Beau_Geste,1977,
 304,304,Beau Geste,,1924,/wiki/Beau_Geste,P. C. Wren,Beau Geste,/wiki/Beau_Geste_(TV_series),1982,
-305,305,Beautiful Creatures,,2009,/wiki/Beautiful_Creatures_(novel),,Beautiful Creatures,/wiki/Beautiful_Creatures_(2013_film),2013,978-0-316-04267-3
+305,305,Beautiful Creatures,,2009,/wiki/Beautiful_Creatures_(novel),Kami Garcia,Beautiful Creatures,/wiki/Beautiful_Creatures_(2013_film),2013,978-0-316-04267-3
 306,306,Bedelia,,1945,/wiki/Bedelia_(novel),Vera Caspary,Bedelia,/wiki/Bedelia_(film),1946,
 307,307,Bee Season,,2000,/wiki/Bee_Season,Myla Goldberg,Bee Season,/wiki/Bee_Season_(film),2005,0-385-49879-9
 308,308,Beer and Blood: The Story of a Couple o' Wrong Guys,,1930,/wiki/The_Public_Enemy#Based_on_Beer_and_Blood_by_John_Bright_and_Kubec_Glasmon,John Bright,The Public Enemy,/wiki/The_Public_Enemy,1931,
@@ -401,10 +401,10 @@
 399,399,Black Narcissus,,1939,/wiki/Rumer_Godden#Works_-_Books_for_adults_-_Black_Narcissus_(1939),Rumer Godden,Black Narcissus,/wiki/Black_Narcissus,1947,
 400,400,The Black Path of Fear,,1944,/wiki/Cornell_Woolrich#Novels_-_The_Black_Path_of_Fear_(1944),Cornell Woolrich,The Chase,/wiki/The_Chase_(1946_film),1946,
 401,401,The Black Rose,,1945,/wiki/Thomas_B._Costain#Publications_-_Novels_-_The_Black_Rose_(1945),Thomas B. Costain,The Black Rose,/wiki/The_Black_Rose,1950,
-402,402,The Black Stallion,,1989,/wiki/The_Black_Stallion,,The Black Stallion,/wiki/The_Black_Stallion#Movies_and_TV_adaptations,1979,
-403,403,The Black Stallion,,1989,/wiki/The_Black_Stallion,,The Black Stallion,/wiki/The_Black_Stallion_(film),1979,
-404,404,The Black Stallion Returns,,1989,/wiki/The_Black_Stallion,,The Black Stallion Returns,/wiki/The_Black_Stallion_Returns,1983,
-405,405,The Young Black Stallion,,1989,/wiki/The_Black_Stallion,,The Young Black Stallion,/wiki/The_Young_Black_Stallion,2003,
+402,402,The Black Stallion,,1989,/wiki/The_Black_Stallion,Walter Farley,The Black Stallion,/wiki/The_Black_Stallion#Movies_and_TV_adaptations,1979,
+403,403,The Black Stallion,,1989,/wiki/The_Black_Stallion,Walter Farley,The Black Stallion,/wiki/The_Black_Stallion_(film),1979,
+404,404,The Black Stallion Returns,,1989,/wiki/The_Black_Stallion,Walter Farley,The Black Stallion Returns,/wiki/The_Black_Stallion_Returns,1983,
+405,405,The Young Black Stallion,,1989,/wiki/The_Black_Stallion,Walter Farley,The Young Black Stallion,/wiki/The_Young_Black_Stallion,2003,
 406,406,Black Sunday,,1971,/wiki/Black_Sunday_(novel),Thomas Harris,Black Sunday,/wiki/Black_Sunday_(1977_film),1977,0-399-11443-2
 407,407,The Blackboard Jungle,,1954,/wiki/Evan_Hunter_bibliography#The_Blackboard_Jungle_(1954),Evan Hunter,Blackboard Jungle,/wiki/Blackboard_Jungle,1955,
 408,408,Blackbeard's Ghost,,1965,/wiki/Blackbeard%27s_Ghost#Novel,Ben Stahl,Blackbeard's Ghost,/wiki/Blackbeard%27s_Ghost,1968,
@@ -454,21 +454,21 @@
 452,452,The Borrowers,,1952,/wiki/The_Borrowers,Mary Norton,The Borrowers,/wiki/The_Borrowers_(1997_film),1997,
 453,453,The Borrowers,,1952,/wiki/The_Borrowers,Mary Norton,The Borrower Arrietty,/wiki/The_Borrower_Arrietty,2010,
 454,454,The Bostonians,,1885,/wiki/The_Bostonians,Henry James,The Bostonians,/wiki/The_Bostonians_(film),1984,
-455,455,Bourne,,2004,/wiki/Jason_Bourne,,The Bourne Identity,/wiki/The_Bourne_Identity_(1988_film),1988,
-456,456,nn,,2004,/wiki/Jason_Bourne,,Bourne,/wiki/Bourne_(film_series),2002,
-457,457,The Bourne Identity,,2004,/wiki/Jason_Bourne,,The Bourne Identity,/wiki/The_Bourne_Identity_(2002_film),2002,
-458,458,The Bourne Supremacy,,2004,/wiki/Jason_Bourne,,The Bourne Supremacy,/wiki/The_Bourne_Supremacy_(film),2004,
-459,459,The Bourne Ultimatum ,,2004,/wiki/Jason_Bourne,,The Bourne Ultimatum,/wiki/The_Bourne_Ultimatum_(film),2007,
-460,460,The Bourne Legacy,,2004,/wiki/Jason_Bourne,,The Bourne Legacy,/wiki/The_Bourne_Legacy_(film),2012,
+455,455,Bourne,,2004,/wiki/Jason_Bourne,Robert Ludlum,The Bourne Identity,/wiki/The_Bourne_Identity_(1988_film),1988,
+456,456,Bourne,,2004,/wiki/Jason_Bourne,Robert Ludlum,Bourne,/wiki/Bourne_(film_series),2002,
+457,457,The Bourne Identity,,2004,/wiki/Jason_Bourne,Robert Ludlum,The Bourne Identity,/wiki/The_Bourne_Identity_(2002_film),2002,
+458,458,The Bourne Supremacy,,2004,/wiki/Jason_Bourne,Robert Ludlum,The Bourne Supremacy,/wiki/The_Bourne_Supremacy_(film),2004,
+459,459,The Bourne Ultimatum ,,2004,/wiki/Jason_Bourne,Robert Ludlum,The Bourne Ultimatum,/wiki/The_Bourne_Ultimatum_(film),2007,
+460,460,The Bourne Legacy,,2004,/wiki/Jason_Bourne,Eric Van Lustbader,The Bourne Legacy,/wiki/The_Bourne_Legacy_(film),2012,
 461,461,The Boy in the Striped Pyjamas,,2006,/wiki/The_Boy_in_the_Striped_Pyjamas,John Boyne,The Boy in the Striped Pyjamas,/wiki/The_Boy_in_the_Striped_Pyjamas_(film),2008,0-385-60940-X
 462,462,Boy on a Dolphin,,1955,/wiki/Boy_on_a_Dolphin#Based_on_the_novel_by_David_Divine.,,Boy on a Dolphin,/wiki/Boy_on_a_Dolphin,1957,
 463,463,The Boys from Brazil,,1976,/wiki/The_Boys_from_Brazil_(novel),Ira Levin,The Boys from Brazil,/wiki/The_Boys_from_Brazil_(film),1978,0-394-40267-7
 464,464,The Bravados,,1958,/wiki/The_Bravados,Frank O'Rourke,The Bravados,/wiki/The_Bravados,1958,
 465,465,The Brave Bulls,,1949,/wiki/The_Brave_Bulls,Thomas C. Lea III,The Brave Bulls,/wiki/The_Brave_Bulls#Adaptations_-_The_Brave_Bulls_(1951_film),1951,0-292-74733-0
 466,466,The Brave Cowboy,,1956,/wiki/The_Brave_Cowboy,Edward Abbey,Lonely Are the Brave,/wiki/Lonely_Are_the_Brave,1962,0-8263-0448-6
-467,467,The Brave Little Toaster: A Bedtime Story for Small Appliances,,1988,/wiki/The_Brave_Little_Toaster_(novel),,The Brave Little Toaster,/wiki/The_Brave_Little_Toaster,1987,
-468,468,The Brave Little Toaster Goes to Mars,,1988,/wiki/The_Brave_Little_Toaster_(novel),,The Brave Little Toaster Goes to Mars,/wiki/The_Brave_Little_Toaster_Goes_to_Mars,1998,
-469,469,The Brave Little Toaster: A Bedtime Story for Small Appliances,,1988,/wiki/The_Brave_Little_Toaster_(novel),,The Brave Little Toaster to the Rescue,/wiki/The_Brave_Little_Toaster_to_the_Rescue,1999,
+467,467,The Brave Little Toaster: A Bedtime Story for Small Appliances,,1988,/wiki/The_Brave_Little_Toaster_(novel),Thomas M. Disch,The Brave Little Toaster,/wiki/The_Brave_Little_Toaster,1987,
+468,468,The Brave Little Toaster Goes to Mars,,1988,/wiki/The_Brave_Little_Toaster_(novel),Thomas M. Disch,The Brave Little Toaster Goes to Mars,/wiki/The_Brave_Little_Toaster_Goes_to_Mars,1998,
+469,469,The Brave Little Toaster: A Bedtime Story for Small Appliances,,1988,/wiki/The_Brave_Little_Toaster_(novel),Thomas M. Disch,The Brave Little Toaster to the Rescue,/wiki/The_Brave_Little_Toaster_to_the_Rescue,1999,
 470,470,Brave New World,,1932,/wiki/Brave_New_World,Aldous Huxley,Brave New World,/wiki/Brave_New_World#Adaptations_-_Movies_-_Brave_New_World_(1980),1980,
 471,471,Brave New World,,1932,/wiki/Brave_New_World,Aldous Huxley,Brave New World,/wiki/Brave_New_World_(1998_film),1998,
 472,472,Brave New World,,1932,/wiki/Brave_New_World,Aldous Huxley,Brave New World,/wiki/Brave_New_World#Adaptations_-_Movies_-_Brave_New_World_(2011),2011,
@@ -487,9 +487,9 @@
 485,485,Bridge to Terabithia,,1977,/wiki/Bridge_to_Terabithia_(novel),Katherine Paterson,Bridge to Terabithia,/wiki/Bridge_to_Terabithia_(2007_film),2007,0-690-01359-0
 486,486,The Bridges at Toko-Ri,,1953,/wiki/The_Bridges_at_Toko-Ri_(novel),James A. Michener,The Bridges at Toko-Ri,/wiki/The_Bridges_at_Toko-Ri,1953,0-394-41780-1
 487,487,The Bridges of Madison County,Love in Black and White,1992,/wiki/The_Bridges_of_Madison_County,Robert James Waller,The Bridges of Madison County,/wiki/The_Bridges_of_Madison_County_(film),1995,0-446-51652-X
-488,488,nn,,1999,/wiki/Bridget_Jones,,Bridget Jones,/wiki/Bridget_Jones#Film_series,2001,
-489,489,Bridget Jones's Diary,,1999,/wiki/Bridget_Jones,,Bridget Jones's Diary,/wiki/Bridget_Jones%27s_Diary_(film),2001,
-490,490,Bridget Jones: The Edge of Reason,,1999,/wiki/Bridget_Jones,,Bridget Jones: The Edge of Reason,/wiki/Bridget_Jones:_The_Edge_of_Reason_(film),2004,
+488,488,Bridget Jones,,1999,/wiki/Bridget_Jones,Helen Fielding,Bridget Jones,/wiki/Bridget_Jones#Film_series,2001,
+489,489,Bridget Jones's Diary,,1999,/wiki/Bridget_Jones,Helen Fielding,Bridget Jones's Diary,/wiki/Bridget_Jones%27s_Diary_(film),2001,
+490,490,Bridget Jones: The Edge of Reason,,1999,/wiki/Bridget_Jones,Helen Fielding,Bridget Jones: The Edge of Reason,/wiki/Bridget_Jones:_The_Edge_of_Reason_(film),2004,
 491,491,"Bright Lights, Big City",,1984,"/wiki/Bright_Lights,_Big_City_(novel)",Jay McInerney,"Bright Lights, Big City","/wiki/Bright_Lights,_Big_City_(film)",1988,
 492,492,Brighton Rock,,1938,/wiki/Brighton_Rock_(novel),Graham Greene,Brighton Rock,/wiki/Brighton_Rock_(1947_film),1947,
 493,493,Brighton Rock,,1938,/wiki/Brighton_Rock_(novel),Graham Greene,Brighton Rock,/wiki/Brighton_Rock_(2010_film),2010,
@@ -521,7 +521,7 @@
 519,519,The Caine Mutiny,,1952,/wiki/The_Caine_Mutiny,Herman Wouk,The Caine Mutiny Court-Martial,/wiki/The_Caine_Mutiny_Court-Martial#1988_television_film_adaptation_for_CBS,1988,
 520,520,Cal,,1983,/wiki/Cal_(novel),Bernard MacLaverty,Cal,/wiki/Cal_(1984_film),1984,
 521,521,Call for the Dead,,1961,/wiki/Call_for_the_Dead,John le Carré,The Deadly Affair,/wiki/The_Deadly_Affair,1966,0-7434-3167-7
-522,522,Call Me By Your Name,,2007,/wiki/Call_Me_by_Your_Name_(novel),,Call Me By Your Name,/wiki/Call_Me_by_Your_Name_(film),2017,0-374-29921-8
+522,522,Call Me By Your Name,,2007,/wiki/Call_Me_by_Your_Name_(novel),Andr� Aciman,Call Me By Your Name,/wiki/Call_Me_by_Your_Name_(film),2017,0-374-29921-8
 523,523,Call It Treason,,1949,/wiki/Decision_Before_Dawn#Based_on_the_1949_novel_Call_It_Treason_by_George_Howe.,,Decision Before Dawn,/wiki/Decision_Before_Dawn,1951,
 524,524,The Call of the Wild,,1903,/wiki/The_Call_of_the_Wild,Jack London,The Call of the Wild,/wiki/The_Call_of_the_Wild_(1935_film),1935,
 525,525,The Call of the Wild,,1903,/wiki/The_Call_of_the_Wild,Jack London,The Call of the Wild,/wiki/The_Call_of_the_Wild_(1972_film),1972,
@@ -542,17 +542,17 @@
 540,540,Captain Blood: His Odyssey,,1922,/wiki/Captain_Blood_(novel),Rafael Sabatini,Odyssey of Captain Blood,"/wiki/Captain_Blood_(novel)#Film,_TV_or_theatrical_adaptations_-_Odyssey_of_Captain_Blood_(1991_film)_(USSR/France)",1991,
 541,541,A Captive in the Land,,1962,"/wiki/James_Aldridge#Bibliography_-_A_Captive_in_the_Land_(Hamish_Hamilton,_1962)",James Aldridge,A Captive in the Land,/wiki/A_Captive_in_the_Land,1990,
 542,542,The Captives,,1955,/wiki/Elmore_Leonard#Works_-_Stories_-_The_Captives_(1955),Elmore Leonard,The Tall T,/wiki/The_Tall_T,1957,
-543,543,"Car, Boy, Girl",,1961,"/wiki/The_Love_Bug#Based_on_the_1961_book,_Car,_Boy,_Girl_(1961),_by_Gordon_Buford",,"Herbie, the Love Bug",/wiki/Herbie,1968,
-544,544,"Car, Boy, Girl",,1961,"/wiki/The_Love_Bug#Based_on_the_1961_book,_Car,_Boy,_Girl_(1961),_by_Gordon_Buford",,The Love Bug,/wiki/The_Love_Bug,1968,
-545,545,"Car, Boy, Girl",,1961,"/wiki/The_Love_Bug#Based_on_the_1961_book,_Car,_Boy,_Girl_(1961),_by_Gordon_Buford",,Herbie Rides Again,/wiki/Herbie_Rides_Again,1974,
-546,546,"Car, Boy, Girl",,1961,"/wiki/The_Love_Bug#Based_on_the_1961_book,_Car,_Boy,_Girl_(1961),_by_Gordon_Buford",,Herbie Goes to Monte Carlo,/wiki/Herbie_Goes_to_Monte_Carlo,1977,
-547,547,"Car, Boy, Girl",,1961,"/wiki/The_Love_Bug#Based_on_the_1961_book,_Car,_Boy,_Girl_(1961),_by_Gordon_Buford",,Herbie Goes Bananas,/wiki/Herbie_Goes_Bananas,1980,
-548,548,"Car, Boy, Girl",,1961,"/wiki/The_Love_Bug#Based_on_the_1961_book,_Car,_Boy,_Girl_(1961),_by_Gordon_Buford",,The Love Bug,/wiki/The_Love_Bug_(1997_film),1997,
-549,549,"Car, Boy, Girl",,1961,"/wiki/The_Love_Bug#Based_on_the_1961_book,_Car,_Boy,_Girl_(1961),_by_Gordon_Buford",,Herbie: Fully Loaded,/wiki/Herbie:_Fully_Loaded,2005,
+543,543,"Car, Boy, Girl",,1961,"/wiki/The_Love_Bug#Based_on_the_1961_book,_Car,_Boy,_Girl_(1961),_by_Gordon_Buford",Gordon Buford,"Herbie, the Love Bug",/wiki/Herbie,1968,
+544,544,"Car, Boy, Girl",,1961,"/wiki/The_Love_Bug#Based_on_the_1961_book,_Car,_Boy,_Girl_(1961),_by_Gordon_Buford",Gordon Buford,The Love Bug,/wiki/The_Love_Bug,1968,
+545,545,"Car, Boy, Girl",,1961,"/wiki/The_Love_Bug#Based_on_the_1961_book,_Car,_Boy,_Girl_(1961),_by_Gordon_Buford",Gordon Buford,Herbie Rides Again,/wiki/Herbie_Rides_Again,1974,
+546,546,"Car, Boy, Girl",,1961,"/wiki/The_Love_Bug#Based_on_the_1961_book,_Car,_Boy,_Girl_(1961),_by_Gordon_Buford",Gordon Buford,Herbie Goes to Monte Carlo,/wiki/Herbie_Goes_to_Monte_Carlo,1977,
+547,547,"Car, Boy, Girl",,1961,"/wiki/The_Love_Bug#Based_on_the_1961_book,_Car,_Boy,_Girl_(1961),_by_Gordon_Buford",Gordon Buford,Herbie Goes Bananas,/wiki/Herbie_Goes_Bananas,1980,
+548,548,"Car, Boy, Girl",,1961,"/wiki/The_Love_Bug#Based_on_the_1961_book,_Car,_Boy,_Girl_(1961),_by_Gordon_Buford",Gordon Buford,The Love Bug,/wiki/The_Love_Bug_(1997_film),1997,
+549,549,"Car, Boy, Girl",,1961,"/wiki/The_Love_Bug#Based_on_the_1961_book,_Car,_Boy,_Girl_(1961),_by_Gordon_Buford",Gordon Buford,Herbie: Fully Loaded,/wiki/Herbie:_Fully_Loaded,2005,
 550,550,The Card,,1911,/wiki/The_Card,Arnold Bennett,The Card,/wiki/The_Card_(1952_film),1952,
 551,551,"Careful, He Might Hear You",,1963,"/wiki/Careful,_He_Might_Hear_You_(novel)",Sumner Locke Elliott,"Careful, He Might Hear You","/wiki/Careful,_He_Might_Hear_You",1983,
-552,552,Carlito's Way,After Hours,1979,/wiki/Edwin_Torres_(judge)#Carlito's_Way_(1975),,Carlito's Way,/wiki/Carlito%27s_Way,1993,
-553,553,Carlito's Way,After Hours,1979,/wiki/Edwin_Torres_(judge)#Carlito's_Way_(1975),,Carlito's Way: Rise to Power,/wiki/Carlito%27s_Way:_Rise_to_Power,2005,
+552,552,Carlito's Way,After Hours,1979,/wiki/Edwin_Torres_(judge)#Carlito's_Way_(1975),Edwin Torres,Carlito's Way,/wiki/Carlito%27s_Way,1993,
+553,553,Carlito's Way,After Hours,1979,/wiki/Edwin_Torres_(judge)#Carlito's_Way_(1975),Edwin Torres,Carlito's Way: Rise to Power,/wiki/Carlito%27s_Way:_Rise_to_Power,2005,
 554,554,The Carpetbaggers,,1961,/wiki/The_Carpetbaggers,Harold Robbins,The Carpetbaggers,/wiki/The_Carpetbaggers_(film),1964,
 555,555,The Carpetbaggers,,1961,/wiki/The_Carpetbaggers,Harold Robbins,Nevada Smith,/wiki/Nevada_Smith,1964,
 556,556,The Carpetbaggers,,1961,/wiki/The_Carpetbaggers,Harold Robbins,Nevada Smith Tv,/wiki/Nevada_Smith_Tv,1975,
@@ -593,9 +593,9 @@
 591,591,Charlie Chan Carries On,,1930,/wiki/Charlie_Chan_Carries_On,Earl Derr Biggers,Charlie Chan's Murder Cruise,/wiki/Charlie_Chan%27s_Murder_Cruise,1940,0-85468-122-1
 592,592,Charlie M,,1977,/wiki/Charlie_M,Brian Freemantle,Charlie Muffin,/wiki/Charlie_Muffin,1979,
 593,593,Charlotte Gray,,1999,/wiki/Charlotte_Gray_(novel),Sebastian Faulks,Charlotte Gray,/wiki/Charlotte_Gray_(film),2001,0-375-50169-X
-594,594,Charlotte's Web,,1952,/wiki/Charlotte%27s_Web,E. B. White,Charlotte's Web,/wiki/Charlotte%27s_Web_(1973_film),1973,9.78006E+12
-595,595,Charlotte's Web,,1952,/wiki/Charlotte%27s_Web,E. B. White,Charlotte's Web 2: Wilbur's Great Adventure,/wiki/Charlotte%27s_Web_2:_Wilbur%27s_Great_Adventure,2003,9.78006E+12
-596,596,Charlotte's Web,,1952,/wiki/Charlotte%27s_Web,E. B. White,Charlotte's Web,/wiki/Charlotte%27s_Web_(2006_film),2006,9.78006E+12
+594,594,Charlotte's Web,,1952,/wiki/Charlotte%27s_Web,E. B. White,Charlotte's Web,/wiki/Charlotte%27s_Web_(1973_film),1973,9.78E+12
+595,595,Charlotte's Web,,1952,/wiki/Charlotte%27s_Web,E. B. White,Charlotte's Web 2: Wilbur's Great Adventure,/wiki/Charlotte%27s_Web_2:_Wilbur%27s_Great_Adventure,2003,9.78E+12
+596,596,Charlotte's Web,,1952,/wiki/Charlotte%27s_Web,E. B. White,Charlotte's Web,/wiki/Charlotte%27s_Web_(2006_film),2006,9.78E+12
 597,597,Chateau Bon Vivant,,1969,/wiki/Snowball_Express#Novel_-_Chateau_Bon_Vivant_by_Frankie_and_John_O'Rear,,Snowball Express,/wiki/Snowball_Express,1972,
 598,598,The Cheetah Girls,,1999,/wiki/The_Cheetah_Girls_(novel_series),Deborah Gregory,The Cheetah Girls,/wiki/The_Cheetah_Girls_(film_series),2003,
 599,599,The Cheetah Girls,,1999,/wiki/The_Cheetah_Girls_(novel_series),Deborah Gregory,The Cheetah Girls,/wiki/The_Cheetah_Girls_(film),2003,
@@ -612,12 +612,12 @@
 610,610,The Chocolate War,,1974,/wiki/The_Chocolate_War,Robert Cormier,The Chocolate War,/wiki/The_Chocolate_War_(film),1988,0-394-82805-4
 611,611,Christine,,1983,/wiki/Christine_(novel),Stephen King,Christine,/wiki/Christine_(1983_film),1983,978-0-670-22026-7
 612,612,Christmas at Candleshoe,,1953,/wiki/J._I._M._Stewart#Christmas_at_Candleshoe_(1953)_(also_known_as_Candleshoe),J. I. M. Stewart,Candleshoe,/wiki/Candleshoe,1977,
-613,613,Christmas at Twenty-Nine,,2002,/wiki/Singles_(2003_film)#Based_on_the_novel_Christmas_at_Twenty-Nine_by_Japanese_writer_Kamato_Toshio/,,Singles,/wiki/Singles_(2003_film),2003,
+613,613,Christmas at Twenty-Nine,,2002,/wiki/Singles_(2003_film)#Based_on_the_novel_Christmas_at_Twenty-Nine_by_Japanese_writer_Kamato_Toshio/,Kamato Toshio,Singles,/wiki/Singles_(2003_film),2003,
 614,614,A Christmas Gift,The Melodeon,1977,/wiki/Glendon_Swarthout#A_Christmas_Gift_(also_known_as_The_Melodeon)_(1977),Glendon Swarthout,Kelly & Dolly: A Christmas to Remember,/wiki/Glendon_Swarthout#Kelly_&_Dolly:_A_Christmas_to_Remember,1984,
 615,615,Christmas Holiday,,1939,/wiki/W._Somerset_Maugham_bibliography#Novels_-_Christmas_Holiday_(1939),W. Somerset Maugham,Christmas Holiday,/wiki/Christmas_Holiday,1944,
-616,616,The Christmas Shoes,,2002,/wiki/The_Christmas_Shoes_(song)#Song_in_media_-_The_Christmas_Shoes_(2002_film),,The Christmas Shoes,/wiki/The_Christmas_Shoes_(film),2002,
-617,617,The Christmas Shoes,,2002,/wiki/The_Christmas_Shoes_(song)#Song_in_media_-_The_Christmas_Shoes_(2002_film),,The Christmas Blessing,/wiki/The_Christmas_Blessing,2005,
-618,618,The Christmas Shoes,,2002,/wiki/The_Christmas_Shoes_(song)#Song_in_media_-_The_Christmas_Shoes_(2002_film),,The Christmas Hope,/wiki/The_Christmas_Hope,2009,
+616,616,The Christmas Shoes,,2002,/wiki/The_Christmas_Shoes_(song)#Song_in_media_-_The_Christmas_Shoes_(2002_film),Donna VanLiere,The Christmas Shoes,/wiki/The_Christmas_Shoes_(film),2002,
+617,617,The Christmas Shoes,,2002,/wiki/The_Christmas_Shoes_(song)#Song_in_media_-_The_Christmas_Shoes_(2002_film),Donna VanLiere,The Christmas Blessing,/wiki/The_Christmas_Blessing,2005,
+618,618,The Christmas Shoes,,2002,/wiki/The_Christmas_Shoes_(song)#Song_in_media_-_The_Christmas_Shoes_(2002_film),Donna VanLiere,The Christmas Hope,/wiki/The_Christmas_Hope,2009,
 619,619,Christopher Strong,,1932,/wiki/Gilbert_Frankau#Works_-_Christopher_Strong_(1932),Gilbert Frankau,Christopher Strong,/wiki/Christopher_Strong,1933,
 620,620,"The Lion, the Witch and the Wardrobe",,1955,/wiki/The_Chronicles_of_Narnia,C.S. Lewis,"The Lion, the Witch and the Wardrobe","/wiki/The_Lion,_the_Witch_and_the_Wardrobe_(1967_TV_serial)",1967,
 621,621,"The Lion, the Witch and the Wardrobe",,1955,/wiki/The_Chronicles_of_Narnia,C.S. Lewis,"The Lion, the Witch and the Wardrobe","/wiki/The_Lion,_the_Witch_and_the_Wardrobe_(1979_film)",1979,
@@ -630,7 +630,7 @@
 628,628,Prince Caspian,,1955,/wiki/The_Chronicles_of_Narnia,C.S. Lewis,The Chronicles of Narnia: Prince Caspian,/wiki/The_Chronicles_of_Narnia:_Prince_Caspian,2008,
 629,629,The Voyage of the Dawn Treader,,1955,/wiki/The_Chronicles_of_Narnia,C.S. Lewis,The Chronicles of Narnia: The Voyage of the Dawn Treader,/wiki/The_Chronicles_of_Narnia:_The_Voyage_of_the_Dawn_Treader,2010,
 630,630,The Magician's Nephew,,1955,/wiki/The_Chronicles_of_Narnia,C.S. Lewis,The Chronicles of Narnia: The Magician's Nephew,/wiki/The_Chronicles_of_Narnia:_The_Magician%27s_Nephew,2012,
-631,631,The Chronicles of Prydain,The Black Cauldron,1965,/wiki/The_Chronicles_of_Prydain,,The Black Cauldron,/wiki/The_Black_Cauldron_(film),1985,
+631,631,The Chronicles of Prydain,The Black Cauldron,1965,/wiki/The_Chronicles_of_Prydain,Lloyd Alexander,The Black Cauldron,/wiki/The_Black_Cauldron_(film),1985,
 632,632,The Cider House Rules,,1985,/wiki/The_Cider_House_Rules,John Irving,The Cider House Rules,/wiki/The_Cider_House_Rules_(film),1999,0-688-03036-X
 633,633,Cimarron,,1929,/wiki/Cimarron_(novel),Edna Ferber,Cimarron,/wiki/Cimarron_(1931_film),1931,
 634,634,Cimarron,,1929,/wiki/Cimarron_(novel),Edna Ferber,Cimarron,/wiki/Cimarron_(1960_film),1960,
@@ -830,7 +830,7 @@
 828,828,The Devil's Own,,1966,,Norah Lofts,The Witches,/wiki/The_Witches_(1966_film),1966,
 829,829,The Devils,The Possessed,1872,/wiki/The_Possessed_(novel),Fyodor Dostoyevsky,The Possessed,"/wiki/The_Possessed_(novel)#Adaptations_-_1969,_BBC_mini-series_""The_Possessed""_adapted_by_Lennox_Phillips_starring_Keith_Bell;_also_broadcast_on_PBS_television_in_1972.",1969,
 830,830,The Devils,The Possessed,1872,/wiki/The_Possessed_(novel),Fyodor Dostoyevsky,La femme publique,/wiki/La_femme_publique,1984,
-831,831,The Devils of Loudun,Die Teufel von Loudun,1969,/wiki/The_Devils_of_Loudun,,The Devils,/wiki/The_Devils_(film),1971,
+831,831,The Devils of Loudun,Die Teufel von Loudun,1969,/wiki/The_Devils_of_Loudun,Aldous Huxley,The Devils,/wiki/The_Devils_(film),1971,
 832,832,Le Diable au corps,The Devil in the Flesh,1923,/wiki/Le_Diable_au_corps_(novel),Raymond Radiguet,Devil in the Flesh,/wiki/Devil_in_the_Flesh_(1947_film),1947,
 833,833,Le Diable au corps,The Devil in the Flesh,1923,/wiki/Le_Diable_au_corps_(novel),Raymond Radiguet,Devil in the Flesh,/wiki/Devil_in_the_Flesh_(1986_film),1986,
 834,834,Le Diable au corps,The Devil in the Flesh,1923,/wiki/Le_Diable_au_corps_(novel),Raymond Radiguet,Devil in the Flesh,/wiki/Devil_in_the_Flesh_(1998_film),1998,
@@ -912,7 +912,7 @@
 910,910,Dying Young,,1990,,Marti Leimbach,Dying Young,/wiki/Dying_Young,1991,
 911,911,The Eagle Has Landed,,1975,/wiki/The_Eagle_Has_Landed_(novel),Jack Higgins,The Eagle Has Landed,/wiki/The_Eagle_Has_Landed_(film),1976,0-00-221208-0
 912,912,The Eagle of the Ninth,,1954,/wiki/The_Eagle_of_the_Ninth,Rosemary Sutcliff,The Eagle,/wiki/The_Eagle_(2011_film),2011,
-913,913,East of Eden,,1952,/wiki/East_of_Eden_(novel),John Steinbeck,East of Eden,/wiki/East_of_Eden_(film),1955,9.78014E+12
+913,913,East of Eden,,1952,/wiki/East_of_Eden_(novel),John Steinbeck,East of Eden,/wiki/East_of_Eden_(film),1955,9.78E+12
 914,914,Eaters of the Dead,,1976,/wiki/Eaters_of_the_Dead,Michael Crichton,The 13th Warrior,/wiki/The_13th_Warrior,1999,0-394-49400-8
 915,915,Eddie and the Cruisers,,1980,,P. F. Kluge,Eddie and the Cruisers,/wiki/Eddie_and_the_Cruisers,1983,
 916,916,The Egyptian,Sinuhe the Egyptian,1945,/wiki/The_Egyptian,Mika Waltari,The Egyptian,/wiki/The_Egyptian_(film),1954,1-55652-441-2
@@ -1006,7 +1006,7 @@
 1004,1004,Farewell to the King,L'Adieu au Roi,1969,,Pierre Schoendoerffer,Farewell to the King,/wiki/Farewell_to_the_King,1989,
 1005,1005,Fate Is the Hunter,,1961,/wiki/Fate_Is_the_Hunter,Ernest K. Gann,Face Is the Hunter,/wiki/Fate_Is_the_Hunter_(film),1964,0-671-63603-0
 1006,1006,Father Malachy's Miracle,,1931,/wiki/Father_Malachy%27s_Miracle,,Das Wunder des Malachias,/wiki/Das_Wunder_des_Malachias,1961,
-1007,1007,Father of Frankenstein,,1995,/wiki/Father_of_Frankenstein,[1],Gods and Monsters,/wiki/Gods_and_Monsters_(film),1998,0-525-93913-X
+1007,1007,Father of Frankenstein,,1995,/wiki/Father_of_Frankenstein,Christopher Bram,Gods and Monsters,/wiki/Gods_and_Monsters_(film),1998,0-525-93913-X
 1008,1008,Father of the Bride,,1949,/wiki/Father_of_the_Bride_(novel),Edward Streeter,Father of the Bride,/wiki/Father_of_the_Bride_(1950_film),1950,
 1009,1009,Father of the Bride,,1949,/wiki/Father_of_the_Bride_(novel),Edward Streeter,Father's Little Dividend,/wiki/Father%27s_Little_Dividend,1951,
 1010,1010,Father of the Bride,,1949,/wiki/Father_of_the_Bride_(novel),Edward Streeter,Father of the Bride,/wiki/Father_of_the_Bride_(1991_film),1991,
@@ -1147,9 +1147,9 @@
 1145,1145,Freedomland,,1998,/wiki/Freedomland_(novel),Richard Price,Freedomland,/wiki/Freedomland_(film),2006,0-7679-0024-3
 1146,1146,The French Lieutenant's Woman,,1969,/wiki/The_French_Lieutenant%27s_Woman,John Fowles,The French Lieutenant's Woman,/wiki/The_French_Lieutenant%27s_Woman_(film),1981,0-224-61654-4
 1147,1147,Fried Green Tomatoes at the Whistle Stop Cafe,,1987,/wiki/Fried_Green_Tomatoes_at_the_Whistle_Stop_Cafe,Fannie Flagg,Fried Green Tomatoes,/wiki/Fried_Green_Tomatoes_(film),1991,0-394-56152-X
-1148,1148,Friend,,1985,/wiki/Friend_(novel),,Deadly Friend,/wiki/Deadly_Friend,1986,
-1149,1149,The Friendly Persuasion,Except for Me and Thee,1955,/wiki/The_Friendly_Persuasion,,Friendly Persuasion,/wiki/Friendly_Persuasion_(1956_film),1956,0-15-602909-X
-1150,1150,The Friendly Persuasion,Except for Me and Thee,1955,/wiki/The_Friendly_Persuasion,,Friendly Persuasion,/wiki/Friendly_Persuasion_(1975_film),1975,0-15-602909-X
+1148,1148,Friend,,1985,/wiki/Friend_(novel),Diana Henstell,Deadly Friend,/wiki/Deadly_Friend,1986,
+1149,1149,The Friendly Persuasion,Except for Me and Thee,1955,/wiki/The_Friendly_Persuasion,Jessamyn West,Friendly Persuasion,/wiki/Friendly_Persuasion_(1956_film),1956,0-15-602909-X
+1150,1150,The Friendly Persuasion,Except for Me and Thee,1955,/wiki/The_Friendly_Persuasion,Jessamyn West,Friendly Persuasion,/wiki/Friendly_Persuasion_(1975_film),1975,0-15-602909-X
 1151,1151,From Here to Eternity,,1951,/wiki/From_Here_to_Eternity_(novel),James Jones,From Here to Eternity,/wiki/From_Here_to_Eternity,1953,
 1152,1152,"From Russia, with Love",,1957,"/wiki/From_Russia,_with_Love_(novel)",Ian Fleming,From Russia with Love,/wiki/From_Russia_with_Love_(film),1963,
 1153,1153,From the Earth to the Moon,,1865,/wiki/From_the_Earth_to_the_Moon,Jules Verne,A Trip to the Moon,/wiki/A_Trip_to_the_Moon,1902,
@@ -1419,7 +1419,7 @@
 1417,1417,The Hundred and One Dalmatians,,1956,/wiki/The_Hundred_and_One_Dalmatians,Dodie Smith,101 Dalmatians II: Patch's London Adventure,/wiki/101_Dalmatians_II:_Patch%27s_London_Adventure,2003,
 1418,1418,The Hundred and One Dalmatians,,1956,/wiki/The_Hundred_and_One_Dalmatians,Dodie Smith,101 Dalmatians,/wiki/101_Dalmatians_(1996_film),1996,
 1419,1419,The Hundred and One Dalmatians,,1956,/wiki/The_Hundred_and_One_Dalmatians,Dodie Smith,102 Dalmatians,/wiki/102_Dalmatians,2000,
-1420,1420,nn,,2010,/wiki/The_Hunger_Games_trilogy,,The Hunger Games film series,/wiki/The_Hunger_Games_(film_series),2012,
+1420,1420,Hunger Games,,2010,/wiki/The_Hunger_Games_trilogy,,The Hunger Games film series,/wiki/The_Hunger_Games_(film_series),2012,
 1421,1421,The Hunger Games,,2010,/wiki/The_Hunger_Games_trilogy,Suzanne Collins,The Hunger Games,/wiki/The_Hunger_Games_(film),2012,
 1422,1422,Catching Fire,,2010,/wiki/The_Hunger_Games_trilogy,Suzanne Collins,The Hunger Games: Catching Fire,/wiki/The_Hunger_Games:_Catching_Fire,2013,
 1423,1423,Mockingjay,Mockingjay,2010,/wiki/The_Hunger_Games_trilogy,Suzanne Collins,The Hunger Games: Mockingjay – Part 1,/wiki/The_Hunger_Games:_Mockingjay_%E2%80%93_Part_1,2014,
@@ -1563,21 +1563,21 @@
 1561,1561,A Judgement in Stone,,1977,/wiki/A_Judgement_in_Stone,Ruth Rendell,La Cérémonie,/wiki/La_C%C3%A9r%C3%A9monie,1995,0-09-129070-8
 1562,1562,The Juggler,,1965,,Donald E. Westlake,Made in U.S.A.,/wiki/Made_in_U.S.A._(1966_film),1966,
 1563,1563,Jumanji,,1981,/wiki/Jumanji,Chris Van Allsburg,Jumanji,/wiki/Jumanji_(film),1995,
-1564,1564,The Jungle Book,The Second Jungle Book,1895,/wiki/The_Jungle_Book,,Elephant Boy,/wiki/Elephant_Boy_(film),1937,
-1565,1565,The Jungle Book,The Second Jungle Book,1895,/wiki/The_Jungle_Book,,Jungle Book,/wiki/Jungle_Book_(1942_film),1942,
-1566,1566,The Jungle Book,The Second Jungle Book,1895,/wiki/The_Jungle_Book,,The Jungle Book,/wiki/The_Jungle_Book_(1967_film),1967,
-1567,1567,The Jungle Book,The Second Jungle Book,1895,/wiki/The_Jungle_Book,,The Jungle Book 2,/wiki/The_Jungle_Book_2,2003,
-1568,1568,The Jungle Book,The Second Jungle Book,1895,/wiki/The_Jungle_Book,,Adventures of Mowgli,/wiki/Adventures_of_Mowgli,1967,
-1569,1569,The Jungle Book,The Second Jungle Book,1895,/wiki/The_Jungle_Book,,The Jungle Book,/wiki/The_Jungle_Book_(1994_film),1994,
-1570,1570,The Jungle Book,The Second Jungle Book,1895,/wiki/The_Jungle_Book,,The Second Jungle Book: Mowgli & Baloo,/wiki/The_Second_Jungle_Book:_Mowgli_%26_Baloo,1997,
-1571,1571,The Jungle Book,The Second Jungle Book,1895,/wiki/The_Jungle_Book,,Jungle Book: Mowgli's Story,/wiki/Jungle_Book:_Mowgli%27s_Story,1998,
-1572,1572,The Jungle Book,The Second Jungle Book,1895,/wiki/The_Jungle_Book,,Mowgli: The New Adventures of the Jungle Book,/wiki/Mowgli:_The_New_Adventures_of_the_Jungle_Book,1998,
+1564,1564,The Jungle Book,,1895,/wiki/The_Jungle_Book,Rudyard Kipling,Elephant Boy,/wiki/Elephant_Boy_(film),1937,
+1565,1565,The Jungle Book,,1895,/wiki/The_Jungle_Book,Rudyard Kipling,Jungle Book,/wiki/Jungle_Book_(1942_film),1942,
+1566,1566,The Jungle Book,,1895,/wiki/The_Jungle_Book,Rudyard Kipling,The Jungle Book,/wiki/The_Jungle_Book_(1967_film),1967,
+1567,1567,The Second Jungle Book,,1895,/wiki/The_Jungle_Book,Rudyard Kipling,The Jungle Book 2,/wiki/The_Jungle_Book_2,2003,
+1568,1568,The Jungle Book,,1895,/wiki/The_Jungle_Book,Rudyard Kipling,Adventures of Mowgli,/wiki/Adventures_of_Mowgli,1967,
+1569,1569,The Jungle Book,,1895,/wiki/The_Jungle_Book,Rudyard Kipling,The Jungle Book,/wiki/The_Jungle_Book_(1994_film),1994,
+1570,1570,The Second Jungle Book,,1895,/wiki/The_Jungle_Book,Rudyard Kipling,The Second Jungle Book: Mowgli & Baloo,/wiki/The_Second_Jungle_Book:_Mowgli_%26_Baloo,1997,
+1571,1571,The Second Jungle Book,,1895,/wiki/The_Jungle_Book,Rudyard Kipling,Jungle Book: Mowgli's Story,/wiki/Jungle_Book:_Mowgli%27s_Story,1998,
+1572,1572,The Jungle Book,,1895,/wiki/The_Jungle_Book,Rudyard Kipling,Mowgli: The New Adventures of the Jungle Book,/wiki/Mowgli:_The_New_Adventures_of_the_Jungle_Book,1998,
 1573,1573,Jupiter Laughs,,1940,/wiki/Jupiter_Laughs,A. J. Cronin,Shining Victory,/wiki/Shining_Victory,1941,
 1574,1574,Jupiter Laughs,,1940,/wiki/Jupiter_Laughs,A. J. Cronin,Ich suche Dich,/wiki/Ich_suche_Dich,,
 1575,1575,Jupiter Laughs,,1940,/wiki/Jupiter_Laughs,A. J. Cronin,I Seek You,,1956,
 1576,1576,Jurassic Park,,1990,/wiki/Jurassic_Park_(novel),Michael Crichton,Jurassic Park,/wiki/Jurassic_Park_(franchise),1993,0-394-58816-9
 1577,1577,Jurassic Park,,1990,/wiki/Jurassic_Park_(novel),Michael Crichton,Jurassic Park,/wiki/Jurassic_Park_(film),1993,0-394-58816-9
-1578,1578,Jurassic Park,,1990,/wiki/Jurassic_Park_(novel),Michael Crichton,The Lost World: Jurassic Park,/wiki/The_Lost_World:_Jurassic_Park,1997,0-394-58816-9
+1578,1578,The Lost World,,1990,/wiki/Jurassic_Park_(novel),Michael Crichton,The Lost World: Jurassic Park,/wiki/The_Lost_World:_Jurassic_Park,1997,0-394-58816-9
 1579,1579,Jurassic Park,,1990,/wiki/Jurassic_Park_(novel),Michael Crichton,Jurassic Park III,/wiki/Jurassic_Park_III,2001,0-394-58816-9
 1580,1580,The Jungle,,1906,/wiki/The_Jungle,Upton Sinclair,The Jungle,/wiki/The_Jungle_(1914_film),1914,
 1581,1581,Justine,,1957,/wiki/Justine_(Durrell_novel),Lawrence Durrell,Justine,/wiki/Justine_(1969_film),1969,
@@ -1618,7 +1618,7 @@
 1616,1616,Kiss of the Spider Woman,,1976,/wiki/Kiss_of_the_Spider_Woman_(novel),Manuel Puig,Kiss of the Spider Woman,/wiki/Kiss_of_the_Spider_Woman_(film),1985,
 1617,1617,Kiss the Girls,,1995,/wiki/Kiss_the_Girls_(novel),James Patterson,Kiss the Girls,/wiki/Kiss_the_Girls_(film),1997,0-316-69370-7
 1618,1618,Kiss Tomorrow Goodbye,,1948,,Horace McCoy,Kiss Tomorrow Goodbye,/wiki/Kiss_Tomorrow_Goodbye_(film),1950,
-1619,1619," (1967), William Bradford Huie",,,/wiki/William_Bradford_Huie,,The Klansman,/wiki/The_Klansman,1974,
+1619,1619,The Klansman,,,/wiki/William_Bradford_Huie,William Bradford Huie,The Klansman,/wiki/The_Klansman,1974,
 1620,1620,Kolchak: The Kolchak Papers,,1970,,,Kolchak: The Night Stalker,/wiki/Kolchak:_The_Night_Stalker,1972,
 1621,1621,Kolchak: The Kolchak Papers,,1970,,,The Night Stalker,/wiki/The_Night_Stalker_(1972_film),1972,
 1622,1622,Kolchak: The Kolchak Papers,,1970,,,The Night Strangler,/wiki/The_Night_Strangler_(film),1973,
@@ -1713,8 +1713,8 @@
 1711,1711,Left Behind,,1995,/wiki/Left_Behind,Tim LaHaye,Left Behind II: Tribulation Force,/wiki/Left_Behind_II:_Tribulation_Force,2002,
 1712,1712,Left Behind,,1995,/wiki/Left_Behind,Tim LaHaye,Left Behind: World at War,/wiki/Left_Behind:_World_at_War,2005,
 1713,1713,Legion,,1983,/wiki/Legion_(Blatty_novel),William Peter Blatty,The Exorcist III,/wiki/The_Exorcist_III,1990,0-671-47045-0
-1714,1714,Lemonade Mouth,,2007,/wiki/Lemonade_Mouth,,Lemonade Mouth,/wiki/Lemonade_Mouth_(film),2011,0-385-73392-5
-1715,1715,Lemonade Mouth,,2007,/wiki/Lemonade_Mouth,,Lemonade Mouth 2,/wiki/Lemonade_Mouth_(film)#Sequel,2012,0-385-73392-5
+1714,1714,Lemonade Mouth,,2007,/wiki/Lemonade_Mouth,Mark Peter Hughes,Lemonade Mouth,/wiki/Lemonade_Mouth_(film),2011,0-385-73392-5
+1715,1715,Lemonade Mouth,,2007,/wiki/Lemonade_Mouth,Mark Peter Hughes,Lemonade Mouth 2,/wiki/Lemonade_Mouth_(film)#Sequel,2012,0-385-73392-5
 1716,1716,The Leopard,,1958,/wiki/The_Leopard,Giuseppe Tomasi di Lampedusa,The Leopard,/wiki/The_Leopard_(1963_film),1963,0-679-73121-0
 1717,1717,Less Than Zero,,1985,/wiki/Less_Than_Zero_(novel),Bret Easton Ellis,Less Than Zero,/wiki/Less_Than_Zero_(film),1987,978-0-14-008894-6
 1718,1718,Let the Right One In,Låt den rätte komma in,2004,/wiki/Let_the_Right_One_In_(novel),John Ajvide Lindqvist,Let the Right One In,/wiki/Let_the_Right_One_In_(film),2008,0-312-35529-7
@@ -1774,11 +1774,11 @@
 1772,1772,Lord of the Flies,,1954,/wiki/Lord_of_the_Flies,William Golding,Lord of the Flies,/wiki/Lord_of_the_Flies_(1963_film),1963,0-571-05686-5
 1773,1773,Lord of the Flies,,1954,/wiki/Lord_of_the_Flies,William Golding,Alkitrang dugo,/wiki/Alkitrang_dugo,1976,0-571-05686-5
 1774,1774,Lord of the Flies,,1954,/wiki/Lord_of_the_Flies,William Golding,Lord of the Flies,/wiki/Lord_of_the_Flies_(1990_film),1990,0-571-05686-5
-1775,1775,The Lord of the Rings,The Return of the King,1955,/wiki/The_Lord_of_the_Rings,,J. R. R. Tolkien's The Lord of the Rings,/wiki/The_Lord_of_the_Rings_(1978_film),1978,
-1776,1776,The Lord of the Rings,The Return of the King,1955,/wiki/The_Lord_of_the_Rings,,The Lord of the Rings: The Motion Picture Trilogy,/wiki/The_Lord_of_the_Rings_(film_series),2001,
-1777,1777,The Lord of the Rings,The Return of the King,1955,/wiki/The_Lord_of_the_Rings,,The Lord of the Rings: The Fellowship of the Ring,/wiki/The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring,2001,
-1778,1778,The Lord of the Rings,The Return of the King,1955,/wiki/The_Lord_of_the_Rings,,The Lord of the Rings: The Two Towers,/wiki/The_Lord_of_the_Rings:_The_Two_Towers,2002,
-1779,1779,The Lord of the Rings,The Return of the King,1955,/wiki/The_Lord_of_the_Rings,,The Lord of the Rings: The Return of the King,/wiki/The_Lord_of_the_Rings:_The_Return_of_the_King,2003,
+1775,1775,The Lord of the Rings,,1955,/wiki/The_Lord_of_the_Rings,J.R.R. Tolkien,J. R. R. Tolkien's The Lord of the Rings,/wiki/The_Lord_of_the_Rings_(1978_film),1978,
+1776,1776,The Lord of the Rings,,1955,/wiki/The_Lord_of_the_Rings,J.R.R. Tolkien,The Lord of the Rings: The Motion Picture Trilogy,/wiki/The_Lord_of_the_Rings_(film_series),2001,
+1777,1777,The Fellowship of the Ring,,1955,/wiki/The_Lord_of_the_Rings,J.R.R. Tolkien,The Lord of the Rings: The Fellowship of the Ring,/wiki/The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring,2001,
+1778,1778,The Two Towers,,1955,/wiki/The_Lord_of_the_Rings,J.R.R. Tolkien,The Lord of the Rings: The Two Towers,/wiki/The_Lord_of_the_Rings:_The_Two_Towers,2002,
+1779,1779,The Return of the King,,1955,/wiki/The_Lord_of_the_Rings,J.R.R. Tolkien,The Lord of the Rings: The Return of the King,/wiki/The_Lord_of_the_Rings:_The_Return_of_the_King,2003,
 1780,1780,The Lords of Discipline,,1980,/wiki/The_Lords_of_Discipline,Pat Conroy,The Lords of Discipline,/wiki/The_Lords_of_Discipline_(film),1983,0-395-29462-2
 1781,1781,Lost Horizon,,1933,/wiki/Lost_Horizon,James Hilton,Lost Horizon,/wiki/Lost_Horizon_(1937_film),1937,978-1840243536
 1782,1782,Lost Horizon,,1933,/wiki/Lost_Horizon,James Hilton,Lost Horizon,/wiki/Lost_Horizon_(1973_film),1973,978-1840243536
@@ -1812,8 +1812,8 @@
 1810,1810,Lottie and Lisa,Das doppelte Lottchen,1949,/wiki/Lottie_and_Lisa,Erich Kästner,Kuch Khatti Kuch Meethi,/wiki/Kuch_Khatti_Kuch_Meethi,2001,
 1811,1811,Lottie and Lisa,Das doppelte Lottchen,1949,/wiki/Lottie_and_Lisa,Erich Kästner,Tur & Retur,"/wiki/Lottie_and_Lisa#Film,_TV_or_theatrical_adaptations",2003,
 1812,1812,The Loved One,,1948,/wiki/The_Loved_One,Evelyn Waugh,The Loved One,/wiki/The_Loved_One_(film),1965,
-1813,1813,Love Story,Oliver's Story,1977,/wiki/Love_Story_(novel),,Love Story,/wiki/Love_Story_(1970_film),1970,0-340-12508-X
-1814,1814,Love Story,Oliver's Story,1977,/wiki/Love_Story_(novel),,Oliver's Story,/wiki/Oliver%27s_Story#Film_adaptation,1978,0-340-12508-X
+1813,1813,Love Story,,1977,/wiki/Love_Story_(novel),Erich Segal,Love Story,/wiki/Love_Story_(1970_film),1970,0-340-12508-X
+1814,1814,Oliver's Story,,1977,/wiki/Love_Story_(novel),Erich Segal,Oliver's Story,/wiki/Oliver%27s_Story#Film_adaptation,1978,0-340-12508-X
 1815,1815,The Lovely Bones,,2002,/wiki/The_Lovely_Bones,Alice Sebold,The Lovely Bones,/wiki/The_Lovely_Bones_(film),2009,0-316-66634-3
 1816,1816,The Luck of Barry Lyndon,,1844,/wiki/The_Luck_of_Barry_Lyndon,William Makepeace Thackeray,Barry Lyndon,/wiki/Barry_Lyndon_(film),1975,
 1817,1817,The Lucky One,,2008,/wiki/The_Lucky_One_(novel),Nicholas Sparks,The Lucky One,/wiki/The_Lucky_One_(film),2012,0-446-57993-9
@@ -1866,7 +1866,7 @@
 1864,1864,The Mayor of Casterbridge,,1886,/wiki/The_Mayor_of_Casterbridge,Thomas Hardy,The Claim,/wiki/The_Claim_(2000_film),2000,
 1865,1865,McTeague,,1899,/wiki/McTeague,Frank Norris,McTeague,/wiki/McTeague_(film),1916,
 1866,1866,McTeague,,1899,/wiki/McTeague,Frank Norris,Greed,/wiki/Greed_(film),1924,
-1867,1867,Me and Earl and the Dying Girl,,2012,/wiki/Me_and_Earl_and_the_Dying_Girl,Jesse Andrews,Me and Earl and the Dying Girl,,,9.78142E+12
+1867,1867,Me and Earl and the Dying Girl,,2012,/wiki/Me_and_Earl_and_the_Dying_Girl,Jesse Andrews,Me and Earl and the Dying Girl,,,9.78E+12
 1868,1868,The Medusa Touch,,1973,/wiki/The_Medusa_Touch,Peter Van Greenaway,The Medusa Touch,/wiki/The_Medusa_Touch_(film),1978,
 1869,1869,The Memoirs of Cleopatra,,1997,/wiki/The_Memoirs_of_Cleopatra,Margaret George,Cleopatra,/wiki/Cleopatra_(1999_film),1999,312154305
 1870,1870,The Mephisto Waltz,,1969,,Fred Mustard Stewart,The Mephisto Waltz,/wiki/The_Mephisto_Waltz,1971,
@@ -1875,8 +1875,8 @@
 1873,1873,Merton of the Movies,,1919,/wiki/Merton_of_the_Movies_(novel),Harry Leon Wilson,Make Me a Star,/wiki/Make_Me_a_Star_(film),1932,
 1874,1874,Merton of the Movies,,1919,/wiki/Merton_of_the_Movies_(novel),Harry Leon Wilson,Merton of the Movies,/wiki/Merton_of_the_Movies_(1947_film),1947,
 1875,1875,Message in a Bottle,,1998,/wiki/Message_in_a_Bottle_(novel),Nicholas Sparks,Message in a Bottle,/wiki/Message_in_a_Bottle_(film),1999,0-446-52356-9
-1876,1876,Miami Mayhem,The Lady in Cement,1961,,,Tony Rome,/wiki/Tony_Rome,1967,
-1877,1877,Miami Mayhem,The Lady in Cement,1961,,,Lady in Cement,/wiki/Lady_in_Cement,1968,
+1876,1876,Miami Mayhem,,1961,,Marvin H. Albert,Tony Rome,/wiki/Tony_Rome,1967,
+1877,1877,The Lady in Cement,,1961,,Marvin H. Albert,Lady in Cement,/wiki/Lady_in_Cement,1968,
 1878,1878,Midnight and Jeremiah,,1943,/wiki/Midnight_and_Jeremiah,Sterling North,So Dear to My Heart,/wiki/So_Dear_to_My_Heart,1949,
 1879,1879,A Midnight Clear,,1982,,William Wharton,A Midnight Clear,/wiki/A_Midnight_Clear,1992,
 1880,1880,The Midwich Cuckoos,,1957,/wiki/The_Midwich_Cuckoos,John Wyndham,Village of the Damned,/wiki/Village_of_the_Damned_(1960_film),1960,
@@ -1884,13 +1884,13 @@
 1882,1882,The Midwich Cuckoos,,1957,/wiki/The_Midwich_Cuckoos,John Wyndham,Village of the Damned,/wiki/Village_of_the_Damned_(1995_film),1995,
 1883,1883,Mildred Pierce,,1941,/wiki/Mildred_Pierce,James M. Cain,Mildred Pierce,/wiki/Mildred_Pierce_(film),1945,
 1884,1884,Millennium,,1983,/wiki/Millennium_(novel),John Varley,Millennium,/wiki/Millennium_(film),1989,0-425-06250-3
-1885,1885,Millennium,The Girl Who Kicked the Hornets' Nest,2007,/wiki/Millennium_series,,Millennium,/wiki/Millennium_series#Film_adaptations,2009,
-1886,1886,Millennium,The Girl Who Kicked the Hornets' Nest,2007,/wiki/Millennium_series,,The Girl with the Dragon Tattoo,/wiki/The_Girl_with_the_Dragon_Tattoo_(2009_film),2009,
-1887,1887,Millennium,The Girl Who Kicked the Hornets' Nest,2007,/wiki/Millennium_series,,The Girl Who Played with Fire,/wiki/The_Girl_Who_Played_with_Fire_(film),2009,
-1888,1888,Millennium,The Girl Who Kicked the Hornets' Nest,2007,/wiki/Millennium_series,,The Girl Who Kicked the Hornets' Nest,/wiki/The_Girl_Who_Kicked_the_Hornets%27_Nest_(film),2009,
-1889,1889,Millennium,The Girl Who Kicked the Hornets' Nest,2007,/wiki/Millennium_series,,The Girl with the Dragon Tattoo,/wiki/The_Girl_with_the_Dragon_Tattoo_(2011_film),2011,
-1890,1890,Millennium,The Girl Who Kicked the Hornets' Nest,2007,/wiki/Millennium_series,,The Girl Who Played with Fire,/wiki/The_Girl_Who_Played_with_Fire#American_film,2013,
-1891,1891,Millennium,The Girl Who Kicked the Hornets' Nest,2007,/wiki/Millennium_series,,The Girl Who Kicked the Hornets' Nest,/wiki/The_Girl_Who_Kicked_the_Hornets%27_Nest#American_film,2014,
+1885,1885,Millennium,,2007,/wiki/Millennium_series,Stieg Larsson,Millennium,/wiki/Millennium_series#Film_adaptations,2009,
+1886,1886,The Girl with the Dragon Tattoo,,2007,/wiki/Millennium_series,Stieg Larsson,The Girl with the Dragon Tattoo,/wiki/The_Girl_with_the_Dragon_Tattoo_(2009_film),2009,
+1887,1887,The Girl Who Played with Fire,,2007,/wiki/Millennium_series,Stieg Larsson,The Girl Who Played with Fire,/wiki/The_Girl_Who_Played_with_Fire_(film),2009,
+1888,1888,The Girl Who Kicked the Hornets' Nest,,2007,/wiki/Millennium_series,Stieg Larsson,The Girl Who Kicked the Hornets' Nest,/wiki/The_Girl_Who_Kicked_the_Hornets%27_Nest_(film),2009,
+1889,1889,The Girl with the Dragon Tattoo,,2007,/wiki/Millennium_series,Stieg Larsson,The Girl with the Dragon Tattoo,/wiki/The_Girl_with_the_Dragon_Tattoo_(2011_film),2011,
+1890,1890,The Girl Who Played with Fire,,2007,/wiki/Millennium_series,Stieg Larsson,The Girl Who Played with Fire,/wiki/The_Girl_Who_Played_with_Fire#American_film,2013,
+1891,1891,The Girl Who Kicked the Hornets' Nest,,2007,/wiki/Millennium_series,Stieg Larsson,The Girl Who Kicked the Hornets' Nest,/wiki/The_Girl_Who_Kicked_the_Hornets%27_Nest#American_film,2014,
 1892,1892,"Mine-Haha, or On the Bodily Education of Young Girls",,1903,"/wiki/Mine-Haha,_or_On_the_Bodily_Education_of_Young_Girls",Frank Wedekind,Innocence,/wiki/Innocence_(2004_film),2004,
 1893,1893,"Mine-Haha, or On the Bodily Education of Young Girls",,1903,"/wiki/Mine-Haha,_or_On_the_Bodily_Education_of_Young_Girls",Frank Wedekind,The Fine Art of Love: Mine Ha-Ha,/wiki/The_Fine_Art_of_Love:_Mine_Ha-Ha,2005,
 1894,1894,The Mirror Crack'd from Side to Side,,1962,/wiki/The_Mirror_Crack%27d_from_Side_to_Side,Agatha Christie,The Mirror Crack'd,/wiki/The_Mirror_Crack%27d,1980,
@@ -1990,7 +1990,7 @@
 1988,1988,Mrs. Frisby and the Rats of NIMH,,1971,/wiki/Mrs._Frisby_and_the_Rats_of_NIMH,Robert C. O'Brien,The Secret of NIMH,/wiki/The_Secret_of_NIMH,1982,0-689-86220-2
 1989,1989,Mrs. Frisby and the Rats of NIMH,,1971,/wiki/Mrs._Frisby_and_the_Rats_of_NIMH,Robert C. O'Brien,The Secret of NIMH 2: Timmy to the Rescue,/wiki/The_Secret_of_NIMH_2:_Timmy_to_the_Rescue,1999,0-689-86220-2
 1990,1990,Mrs McGinty's Dead,,1952,/wiki/Mrs_McGinty%27s_Dead,Agatha Christie,Murder Most Foul,/wiki/Murder_Most_Foul,1964,
-1991,1991,"Mud on the Stars' (1942), William Bradford Huie",,,/wiki/William_Bradford_Huie,,Wild River,/wiki/Wild_River_(film),1960,
+1991,1991,Mud on the Stars',,,/wiki/William_Bradford_Huie,William Bradford Huie,Wild River,/wiki/Wild_River_(film),1960,
 1992,1992,La Mujer de mi Hermano,My Brother's Wife,2002,,Jaime Bayly,La mujer de mi hermano,/wiki/La_mujer_de_mi_hermano,,
 1993,1993,La Mujer de mi Hermano,My Brother's Wife,2002,,Jaime Bayly,My Brother's Wife,,2005,
 1994,1994,A Mule for the Marquesa,,1964,/wiki/A_Mule_for_the_Marquesa,Frank O'Rourke,The Professionals,/wiki/The_Professionals_(1966_film),1966,
@@ -2191,9 +2191,9 @@
 2189,2189,The Pelican Brief,,1992,/wiki/The_Pelican_Brief,John Grisham,The Pelican Brief,/wiki/The_Pelican_Brief_(film),1993,0-385-42198-2
 2190,2190,The Penal Colony,,1987,,,No Escape,/wiki/No_Escape_(1994_film),1994,
 2191,2191,The People That Time Forgot,,1918,/wiki/The_People_That_Time_Forgot_(novel),Edgar Rice Burroughs,The People That Time Forgot,/wiki/The_People_That_Time_Forgot_(film),1977,
-2192,2192,Percy Jackson & the Olympians,The Sea of Monsters,2006,/wiki/Percy_Jackson_%26_the_Olympians,,Percy Jackson & the Olympians,/wiki/Percy_Jackson_%26_the_Olympians#Film_series,2010,
-2193,2193,Percy Jackson & the Olympians,The Sea of Monsters,2006,/wiki/Percy_Jackson_%26_the_Olympians,,Percy Jackson & the Olympians: The Lightning Thief,/wiki/Percy_Jackson_%26_the_Olympians:_The_Lightning_Thief,2010,
-2194,2194,Percy Jackson & the Olympians,The Sea of Monsters,2006,/wiki/Percy_Jackson_%26_the_Olympians,,Percy Jackson & the Olympians: The Sea of Monsters,/wiki/The_Sea_of_Monsters#Film_adaptation,2013,
+2192,2192,Percy Jackson & the Olympians,,2006,/wiki/Percy_Jackson_%26_the_Olympians,Rick Riordan,Percy Jackson & the Olympians,/wiki/Percy_Jackson_%26_the_Olympians#Film_series,2010,
+2193,2193,The Lightning Thief,,2006,/wiki/Percy_Jackson_%26_the_Olympians,Rick Riordan,Percy Jackson & the Olympians: The Lightning Thief,/wiki/Percy_Jackson_%26_the_Olympians:_The_Lightning_Thief,2010,
+2194,2194,The Sea of Monsters,,2006,/wiki/Percy_Jackson_%26_the_Olympians,Rick Riordan,Percy Jackson & the Olympians: The Sea of Monsters,/wiki/The_Sea_of_Monsters#Film_adaptation,2013,
 2195,2195,Perfect Little Angels,,1989,,Andrew Neiderman,Perfect Little Angels,/w/index.php?title=Perfect_Little_Angels_(film)&action=edit&redlink=1,1998,
 2196,2196,Pet Sematary,,1983,/wiki/Pet_Sematary,Stephen King,Pet Sematary,/wiki/Pet_Sematary_(1989_film),1989,978-0-385-18244-7
 2197,2197,Pet Sematary,,1983,/wiki/Pet_Sematary,Stephen King,Pet Sematary Two,/wiki/Pet_Sematary_Two,1992,978-0-385-18244-7
@@ -2257,7 +2257,7 @@
 2255,2255,The Pillar of Light,,1990,,Gerald N. Lund,The Work and the Glory,/wiki/The_Work_and_the_Glory_(film),2004,
 2256,2256,Pin,,1981,,Andrew Neiderman,Pin,/wiki/Pin_(film),1988,
 2257,2257,"Pioneer, Go Home!",,1959,"/wiki/Pioneer,_Go_Home!",Richard P. Powell,Follow That Dream,/wiki/Follow_That_Dream,1964,
-2258,2258,The Pirates!,The Pirates! in an Adventure with Whaling,2005,/wiki/The_Pirates!,,The Pirates! In an Adventure with Scientists,/wiki/The_Pirates!_In_an_Adventure_with_Scientists_(film),2012,
+2258,2258,The Pirates!,The Pirates! in an Adventure with Whaling,2005,/wiki/The_Pirates!,Gideon Defoe,The Pirates! In an Adventure with Scientists,/wiki/The_Pirates!_In_an_Adventure_with_Scientists_(film),2012,
 2259,2259,Pity My Simplicity,,1944,,,Love Letters,/wiki/Love_Letters_(1945_film),1945,
 2260,2260,La Planète des singes,,1963,/wiki/La_Plan%C3%A8te_des_singes,Pierre Boulle,Planet of the Apes,/wiki/Planet_of_the_Apes,1968,
 2261,2261,La Planète des singes,,1963,/wiki/La_Plan%C3%A8te_des_singes,Pierre Boulle,Planet of the Apes,/wiki/Planet_of_the_Apes_(1968_film),1968,
@@ -2361,7 +2361,7 @@
 2359,2359,Psycho II,,1982,/wiki/Psycho_II_(novel),Robert Bloch,Psycho II,/wiki/Psycho_II_(film),1983,0-918372-08-9
 2360,2360,The Puppet Masters,,1951,/wiki/The_Puppet_Masters,Robert A. Heinlein,The Brain Eaters,/wiki/The_Brain_Eaters,1958,
 2361,2361,The Puppet Masters,,1951,/wiki/The_Puppet_Masters,Robert A. Heinlein,The Puppet Masters,/wiki/The_Puppet_Masters_(film),1994,
-2362,2362,The Purple Cloud,The End of the World,1955,/wiki/The_Purple_Cloud,,"The World, the Flesh and the Devil","/wiki/The_World,_the_Flesh_and_the_Devil_(1959_film)",1959,
+2362,2362,The Purple Cloud,The End of the World,1955,/wiki/The_Purple_Cloud,M. P. Shiel,"The World, the Flesh and the Devil","/wiki/The_World,_the_Flesh_and_the_Devil_(1959_film)",1959,
 2363,2363,Pursuit,,1963,,,"Dirty Mary, Crazy Larry","/wiki/Dirty_Mary,_Crazy_Larry",1974,
 2364,2364,Q & A,,1977,,Edwin Torres,Q & A,/wiki/Q%26A_(film),1990,
 2365,2365,QB VII,,1970,/wiki/QB_VII,Leon Uris,QB VII,/wiki/QB_VII#Television_miniseries,1974,
@@ -2404,8 +2404,8 @@
 2402,2402,The Reivers,,1962,/wiki/The_Reivers,William Faulkner,The Reivers,/wiki/The_Reivers_(film),1969,
 2403,2403,The Remains of the Day,,1989,/wiki/The_Remains_of_the_Day,Ishiguro,The Remains of the Day,/wiki/The_Remains_of_the_Day_(film),1993,978-0-571-15310-7
 2404,2404,Rendezvous in Black,,1948,/wiki/Cornell_Woolrich#Novels_-_Rendezvous_in_Black_(1948),Cornell Woolrich,Seven Blood-Stained Orchids,/wiki/Cornell_Woolrich#Selected_films_based_on_Woolrich_stories_-_Seven_Blood-Stained_Orchids_(1972)_(novel_Rendezvous_in_Black),1972,
-2405,2405,The Rescuers,Miss Bianca,1962,/wiki/Margery_Sharp#Select_bibliography_-_Children's_novels_-_The_Rescuers_series_(1959-1978),,The Rescuers,/wiki/The_Rescuers,1977,
-2406,2406,The Rescuers,Miss Bianca,1962,/wiki/Margery_Sharp#Select_bibliography_-_Children's_novels_-_The_Rescuers_series_(1959-1978),,The Rescuers Down Under,/wiki/The_Rescuers_Down_Under,1990,
+2405,2405,The Rescuers,,1962,/wiki/Margery_Sharp#Select_bibliography_-_Children's_novels_-_The_Rescuers_series_(1959-1978),Margery Sharp,The Rescuers,/wiki/The_Rescuers,1977,
+2406,2406,Miss Bianca,,1962,/wiki/Margery_Sharp#Select_bibliography_-_Children's_novels_-_The_Rescuers_series_(1959-1978),Margery Sharp,The Rescuers Down Under,/wiki/The_Rescuers_Down_Under,1990,
 2407,2407,The Return of the Condor Heroes,,1959,/wiki/The_Return_of_the_Condor_Heroes,Jin Yong,The Story of the Great Heroes,/wiki/The_Story_of_the_Great_Heroes,1960,
 2408,2408,The Return of the Condor Heroes,,1959,/wiki/The_Return_of_the_Condor_Heroes,Jin Yong,The Brave Archer and His Mate,/wiki/The_Brave_Archer_and_His_Mate,1982,
 2409,2409,The Return of the Condor Heroes,,1959,/wiki/The_Return_of_the_Condor_Heroes,Jin Yong,Little Dragon Maiden,/wiki/Little_Dragon_Maiden,1983,
@@ -2435,7 +2435,7 @@
 2433,2433,Riders of the Purple Sage,,1912,/wiki/Riders_of_the_Purple_Sage,Zane Grey,Riders of the Purple Sage,/wiki/Riders_of_the_Purple_Sage#1931_film,1931,
 2434,2434,Riders of the Purple Sage,,1912,/wiki/Riders_of_the_Purple_Sage,Zane Grey,Riders of the Purple Sage,/wiki/Riders_of_the_Purple_Sage#1941_film,1941,
 2435,2435,Riders of the Purple Sage,,1912,/wiki/Riders_of_the_Purple_Sage,Zane Grey,Riders of the Purple Sage,/wiki/Riders_of_the_Purple_Sage#1996_film,1996,
-2436,2436,Ripley Under Ground,,1970,/wiki/Ripley_Under_Ground,Patricia Highsmith,Ripley Under Ground,/wiki/Ripley_Under_Ground_(film),2005,9.78035E+12
+2436,2436,Ripley Under Ground,,1970,/wiki/Ripley_Under_Ground,Patricia Highsmith,Ripley Under Ground,/wiki/Ripley_Under_Ground_(film),2005,9.78E+12
 2437,2437,Ripley's Game,,1974,/wiki/Ripley%27s_Game,Patricia Highsmith,Ripley's Game,/wiki/Ripley%27s_Game_(film),2002,0-434-33514-2
 2438,2438,Rising Sun,,1992,/wiki/Rising_Sun_(novel),Michael Crichton,Rising Sun,/wiki/Rising_Sun_(film),1993,0-394-58942-4
 2439,2439,The River,,1946,,Rumer Godden,The River,/wiki/The_River_(1951_film),1951,
@@ -2459,7 +2459,7 @@
 2457,2457,Robinson Crusoe,,1719,/wiki/Robinson_Crusoe,Daniel Defoe,Robinson Crusoe,/wiki/Robinson_Crusoe_(1997_film),1997,
 2458,2458,Rogue Cop,,1954,,William P. McGivern,Rogue Cop,/wiki/Rogue_Cop,1954,
 2459,2459,The Romance of Rosy Ridge,,1937,,MacKinlay Kantor,The Romance of Rosy Ridge,/wiki/The_Romance_of_Rosy_Ridge,1947,
-2460,2460,A Room with a View,,1908,/wiki/A_Room_with_a_View,,A Room with a View,/wiki/A_Room_with_a_View_(1986_film),1985,
+2460,2460,A Room with a View,,1908,/wiki/A_Room_with_a_View,E. M. Forster,A Room with a View,/wiki/A_Room_with_a_View_(1986_film),1985,
 2461,2461,The Roots of Heaven,,1957,/wiki/The_Roots_of_Heaven_(novel),Romain Gary,The Roots of Heaven,/wiki/The_Roots_of_Heaven_(film),1958,
 2462,2462,Rosemary's Baby,,1967,/wiki/Rosemary%27s_Baby_(novel),Ira Levin,Rosemary's Baby,/wiki/Rosemary%27s_Baby_(film),1968,
 2463,2463,Rosemary's Baby,,1967,/wiki/Rosemary%27s_Baby_(novel),Ira Levin,Look What's Happened to Rosemary's Baby,/wiki/Look_What%27s_Happened_to_Rosemary%27s_Baby,1976,
@@ -2530,7 +2530,7 @@
 2528,2528,The Scarlet Pimpernel,,1903,/wiki/The_Scarlet_Pimpernel,Baroness Emmuska Orczy,The Black Pimpernel,/wiki/The_Scarlet_Pimpernel#Adaptations_-_The_Black_Pimpernel,2006,
 2529,2529,The Scarlet Pimpernel,,1903,/wiki/The_Scarlet_Pimpernel,Baroness Emmuska Orczy,The Scarlet Pimpernel,/wiki/The_Scarlet_Pimpernel#Adaptations_-_The_Scarlet_Pimpernel_(2010_film),2010,
 2530,2530,The Searchers,,1954,,Alan Le May,The Searchers,/wiki/The_Searchers_(film),1956,
-2531,2531,Schindler's Ark,,1982,/wiki/Schindler%27s_Ark,[1],Schindler's List,/wiki/Schindler%27s_List,1993,0-340-27838-2
+2531,2531,Schindler's Ark,,1982,/wiki/Schindler%27s_Ark,Thomas Keneally,Schindler's List,/wiki/Schindler%27s_List,1993,0-340-27838-2
 2532,2532,The Screaming Mimi,,1949,/wiki/The_Screaming_Mimi_(novel),Fredric Brown,The Screaming Mimi,/wiki/The_Screaming_Mimi_(film),1958,
 2533,2533,The Screaming Mimi,,1949,/wiki/The_Screaming_Mimi_(novel),Fredric Brown,The Bird with the Crystal Plumage,/wiki/The_Bird_with_the_Crystal_Plumage,1970,
 2534,2534,The Score,,1963,,Donald E. Westlake,Mise à sac,,1967,
@@ -2600,9 +2600,9 @@
 2598,2598,Shè diao ying xióng zhuàn,The Legend of the Condor Heroes,1957,,Jin Yong,The Eagle Shooting Heroes,,1993,
 2599,2599,Shè diao ying xióng zhuàn,The Legend of the Condor Heroes,1957,,Jin Yong,Dongxié Xidú,/wiki/Ashes_of_Time,,
 2600,2600,Shè diao ying xióng zhuàn,The Legend of the Condor Heroes,1957,,Jin Yong,Ashes of Time,,1994,
-2601,2601,She Loves Me Not,,1933,,,She Loves Me Not,/wiki/She_Loves_Me_Not_(1934_film),1934,
-2602,2602,She Loves Me Not,,1933,,,True to the Army,/wiki/True_to_the_Army,1942,
-2603,2603,She Loves Me Not,,1933,,,"How to Be Very, Very Popular","/wiki/How_to_Be_Very,_Very_Popular",1955,
+2601,2601,She Loves Me Not,,1933,,Edward Hope,She Loves Me Not,/wiki/She_Loves_Me_Not_(1934_film),1934,
+2602,2602,She Loves Me Not,,1933,,Edward Hope,True to the Army,/wiki/True_to_the_Army,1942,
+2603,2603,She Loves Me Not,,1933,,Edward Hope,"How to Be Very, Very Popular","/wiki/How_to_Be_Very,_Very_Popular",1955,
 2604,2604,Sheep,,2004,/wiki/Sheep_(novel),Simon Maginn,The Dark,/wiki/The_Dark_(film),2005,978-0-552-14122-2
 2605,2605,Shen Mu,Sacred Wood,1999,,,Blind Shaft,/wiki/Blind_Shaft,2003,
 2606,2606,A Shilling for Candles,,1936,,Josephine Tey,Young and Innocent,/wiki/Young_and_Innocent,1937,
@@ -2645,7 +2645,7 @@
 2643,2643,Solaris,,1961,/wiki/Solaris_(novel),Stanislaw Lem,Solaris,/wiki/Solaris_(1972_film),1972,156027607
 2644,2644,Solaris,,1961,/wiki/Solaris_(novel),Stanislaw Lem,Solaris,/wiki/Solaris_(2002_film),2002,156027607
 2645,2645,Soldier of Fortune,,1954,,Ernest K. Gann,Soldier of Fortune,/wiki/Soldier_of_Fortune_(1955_film),1955,
-2646,2646,A Soldier's Daughter Never Cries,,1990,/wiki/A_Soldier%27s_Daughter_Never_Cries_(novel),[2],A Soldier's Daughter Never Cries,/wiki/A_Soldier%27s_Daughter_Never_Cries_(film),1998,9.78189E+12
+2646,2646,A Soldier's Daughter Never Cries,,1990,/wiki/A_Soldier%27s_Daughter_Never_Cries_(novel),Kaylie Jones,A Soldier's Daughter Never Cries,/wiki/A_Soldier%27s_Daughter_Never_Cries_(film),1998,9.78E+12
 2647,2647,Something Wicked This Way Comes,,1962,/wiki/Something_Wicked_This_Way_Comes_(novel),Ray Bradbury,Something Wicked This Way Comes,/wiki/Something_Wicked_This_Way_Comes_(1983_film),1983,0-671-67960-0
 2648,2648,The Song of Bernadette,,1941,/wiki/The_Song_of_Bernadette_(novel),Franz Werfel,The Song of Bernadette,/wiki/The_Song_of_Bernadette_(film),1943,
 2649,2649,Sons and Lovers,,1913,/wiki/Sons_and_Lovers,D. H. Lawrence,Sons and Lovers,/wiki/Sons_and_Lovers_(1960_film),1960,
@@ -2793,59 +2793,59 @@
 2791,2791,The Talented Mr. Ripley,,1955,/wiki/The_Talented_Mr._Ripley,Patricia Highsmith,The Talented Mr. Ripley,/wiki/The_Talented_Mr._Ripley_(film),1999,
 2792,2792,The Tall Men,,1954,,Henry Wilson Allen,The Tall Men,/wiki/The_Tall_Men_(film),1954,
 2793,2793,Al-Tareeq al-Masdood,The Barred Road,1954,,Ihsan Abdel Quddous,Al-Tareeq al-Masdood,/wiki/Al-Tareeq_al-Masdood,1958,
-2794,2794,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan of the Apes,/wiki/Tarzan_of_the_Apes_(film),1918,
-2795,2795,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,The Romance of Tarzan,/wiki/The_Romance_of_Tarzan,1918,
-2796,2796,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,The Revenge of Tarzan,/wiki/The_Revenge_of_Tarzan,1920,
-2797,2797,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,The Son of Tarzan,/wiki/The_Son_of_Tarzan_(film),1920,
-2798,2798,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,The Adventures of Tarzan,/wiki/The_Adventures_of_Tarzan,1921,
-2799,2799,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan and the Golden Lion,/wiki/Tarzan_and_the_Golden_Lion_(film),1927,
-2800,2800,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan the Mighty,/wiki/Tarzan_the_Mighty,1928,
-2801,2801,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan the Tiger,/wiki/Tarzan_the_Tiger,1929,
-2802,2802,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan the Ape Man,/wiki/Tarzan_the_Ape_Man_(1932_film),1932,
-2803,2803,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan the Fearless,/wiki/Tarzan_the_Fearless,1933,
-2804,2804,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan and His Mate,/wiki/Tarzan_and_His_Mate,1934,
-2805,2805,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,The New Adventures of Tarzan,/wiki/The_New_Adventures_of_Tarzan,1935,
-2806,2806,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan Escapes,/wiki/Tarzan_Escapes,1936,
-2807,2807,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan and the Green Goddess,/wiki/Tarzan_and_the_Green_Goddess,1938,
-2808,2808,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan’s Revenge,/wiki/Tarzan%E2%80%99s_Revenge,1938,
-2809,2809,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan Finds a Son!,/wiki/Tarzan_Finds_a_Son!,1939,
-2810,2810,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan's Secret Treasure,/wiki/Tarzan%27s_Secret_Treasure,1941,
-2811,2811,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan's New York Adventure,/wiki/Tarzan%27s_New_York_Adventure,1942,
-2812,2812,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan Triumphs,/wiki/Tarzan_Triumphs,1943,
-2813,2813,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan's Desert Mystery,/wiki/Tarzan%27s_Desert_Mystery,1943,
-2814,2814,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan and the Amazons,/wiki/Tarzan_and_the_Amazons,1945,
-2815,2815,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan and the Leopard Woman,/wiki/Tarzan_and_the_Leopard_Woman,1946,
-2816,2816,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan and the Huntress,/wiki/Tarzan_and_the_Huntress,1947,
-2817,2817,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan and the Mermaids,/wiki/Tarzan_and_the_Mermaids,1948,
-2818,2818,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan's Magic Fountain,/wiki/Tarzan%27s_Magic_Fountain,1949,
-2819,2819,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan and the Slave Girl,/wiki/Tarzan_and_the_Slave_Girl,1950,
-2820,2820,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan's Peril,/wiki/Tarzan%27s_Peril,1951,
-2821,2821,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan's Savage Fury,/wiki/Tarzan%27s_Savage_Fury,1952,
-2822,2822,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan and the She-Devil,/wiki/Tarzan_and_the_She-Devil,1953,
-2823,2823,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan's Hidden Jungle,/wiki/Tarzan%27s_Hidden_Jungle,1955,
-2824,2824,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan and the Lost Safari,/wiki/Tarzan_and_the_Lost_Safari,1957,
-2825,2825,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan and the Trappers,/wiki/Tarzan_and_the_Trappers,1958,
-2826,2826,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan's Fight for Life,/wiki/Tarzan%27s_Fight_for_Life,1958,
-2827,2827,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan's Greatest Adventure,/wiki/Tarzan%27s_Greatest_Adventure,1959,
-2828,2828,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,"Tarzan, the Ape Man","/wiki/Tarzan,_the_Ape_Man_(1959_film)",1959,
-2829,2829,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan the Magnificent,/wiki/Tarzan_the_Magnificent,1960,
-2830,2830,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan Goes to India,/wiki/Tarzan_Goes_to_India,1962,
-2831,2831,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan's Three Challenges,/wiki/Tarzan%27s_Three_Challenges,1963,
-2832,2832,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan and the Valley of Gold,/wiki/Tarzan_and_the_Valley_of_Gold_(film),1966,
-2833,2833,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan and the Great River,/wiki/Tarzan_and_the_Great_River,1967,
-2834,2834,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan and the Jungle Boy,/wiki/Tarzan_and_the_Jungle_Boy,1968,
-2835,2835,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan's Deadly Silence,/wiki/Tarzan%27s_Deadly_Silence,1970,
-2836,2836,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan and the Brown Prince,/wiki/Tarzan_and_the_Brown_Prince,1972,
-2837,2837,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,"Tarzan, the Ape Man","/wiki/Tarzan,_the_Ape_Man_(1981_film)",1981,
-2838,2838,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,"Greystoke: The Legend of Tarzan, Lord of the Apes","/wiki/Greystoke:_The_Legend_of_Tarzan,_Lord_of_the_Apes",1984,
-2839,2839,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan and the Lost City,/wiki/Tarzan_and_the_Lost_City_(film),1998,
-2840,2840,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan of the Apes,/wiki/Tarzan_of_the_Apes_(1999_film),1999,
-2841,2841,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Disney's Tarzan,/wiki/Tarzan#Disney_version,1999,
-2842,2842,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan,/wiki/Tarzan_(1999_film),1999,
-2843,2843,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan & Jane,/wiki/Tarzan_%26_Jane,2002,
-2844,2844,Tarzan,Tarzan: The Lost Adventure,1995,/wiki/Tarzan_(book_series),Joe R. Lansdale,Tarzan II,/wiki/Tarzan_II,2005,
+2794,2794,Tarzan of the Apes,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan of the Apes,/wiki/Tarzan_of_the_Apes_(film),1918,
+2795,2795,Tarzan of the Apes,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,The Romance of Tarzan,/wiki/The_Romance_of_Tarzan,1918,
+2796,2796,The Return of Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,The Revenge of Tarzan,/wiki/The_Revenge_of_Tarzan,1920,
+2797,2797,The Son of Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,The Son of Tarzan,/wiki/The_Son_of_Tarzan_(film),1920,
+2798,2798,The Return of Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,The Adventures of Tarzan,/wiki/The_Adventures_of_Tarzan,1921,
+2799,2799,Tarzan and the Golden Lion,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan and the Golden Lion,/wiki/Tarzan_and_the_Golden_Lion_(film),1927,
+2800,2800,Jungle Tales of Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan the Mighty,/wiki/Tarzan_the_Mighty,1928,
+2801,2801,Tarzan and the Jewels of Opar,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan the Tiger,/wiki/Tarzan_the_Tiger,1929,
+2802,2802,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan the Ape Man,/wiki/Tarzan_the_Ape_Man_(1932_film),1932,
+2803,2803,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan the Fearless,/wiki/Tarzan_the_Fearless,1933,
+2804,2804,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan and His Mate,/wiki/Tarzan_and_His_Mate,1934,
+2805,2805,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,The New Adventures of Tarzan,/wiki/The_New_Adventures_of_Tarzan,1935,
+2806,2806,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan Escapes,/wiki/Tarzan_Escapes,1936,
+2807,2807,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan and the Green Goddess,/wiki/Tarzan_and_the_Green_Goddess,1938,
+2808,2808,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan’s Revenge,/wiki/Tarzan%E2%80%99s_Revenge,1938,
+2809,2809,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan Finds a Son!,/wiki/Tarzan_Finds_a_Son!,1939,
+2810,2810,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan's Secret Treasure,/wiki/Tarzan%27s_Secret_Treasure,1941,
+2811,2811,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan's New York Adventure,/wiki/Tarzan%27s_New_York_Adventure,1942,
+2812,2812,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan Triumphs,/wiki/Tarzan_Triumphs,1943,
+2813,2813,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan's Desert Mystery,/wiki/Tarzan%27s_Desert_Mystery,1943,
+2814,2814,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan and the Amazons,/wiki/Tarzan_and_the_Amazons,1945,
+2815,2815,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan and the Leopard Woman,/wiki/Tarzan_and_the_Leopard_Woman,1946,
+2816,2816,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan and the Huntress,/wiki/Tarzan_and_the_Huntress,1947,
+2817,2817,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan and the Mermaids,/wiki/Tarzan_and_the_Mermaids,1948,
+2818,2818,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan's Magic Fountain,/wiki/Tarzan%27s_Magic_Fountain,1949,
+2819,2819,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan and the Slave Girl,/wiki/Tarzan_and_the_Slave_Girl,1950,
+2820,2820,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan's Peril,/wiki/Tarzan%27s_Peril,1951,
+2821,2821,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan's Savage Fury,/wiki/Tarzan%27s_Savage_Fury,1952,
+2822,2822,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan and the She-Devil,/wiki/Tarzan_and_the_She-Devil,1953,
+2823,2823,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan's Hidden Jungle,/wiki/Tarzan%27s_Hidden_Jungle,1955,
+2824,2824,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan and the Lost Safari,/wiki/Tarzan_and_the_Lost_Safari,1957,
+2825,2825,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan and the Trappers,/wiki/Tarzan_and_the_Trappers,1958,
+2826,2826,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan's Fight for Life,/wiki/Tarzan%27s_Fight_for_Life,1958,
+2827,2827,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan's Greatest Adventure,/wiki/Tarzan%27s_Greatest_Adventure,1959,
+2828,2828,Tarzan of the Apes,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,"Tarzan, the Ape Man","/wiki/Tarzan,_the_Ape_Man_(1959_film)",1959,
+2829,2829,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan the Magnificent,/wiki/Tarzan_the_Magnificent,1960,
+2830,2830,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan Goes to India,/wiki/Tarzan_Goes_to_India,1962,
+2831,2831,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan's Three Challenges,/wiki/Tarzan%27s_Three_Challenges,1963,
+2832,2832,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan and the Valley of Gold,/wiki/Tarzan_and_the_Valley_of_Gold_(film),1966,
+2833,2833,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan and the Great River,/wiki/Tarzan_and_the_Great_River,1967,
+2834,2834,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan and the Jungle Boy,/wiki/Tarzan_and_the_Jungle_Boy,1968,
+2835,2835,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan's Deadly Silence,/wiki/Tarzan%27s_Deadly_Silence,1970,
+2836,2836,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan and the Brown Prince,/wiki/Tarzan_and_the_Brown_Prince,1972,
+2837,2837,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,"Tarzan, the Ape Man","/wiki/Tarzan,_the_Ape_Man_(1981_film)",1981,
+2838,2838,Tarzan of the Apes,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,"Greystoke: The Legend of Tarzan, Lord of the Apes","/wiki/Greystoke:_The_Legend_of_Tarzan,_Lord_of_the_Apes",1984,
+2839,2839,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan and the Lost City,/wiki/Tarzan_and_the_Lost_City_(film),1998,
+2840,2840,Tarzan of the Apes,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan of the Apes,/wiki/Tarzan_of_the_Apes_(1999_film),1999,
+2841,2841,Tarzan of the Apes,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Disney's Tarzan,/wiki/Tarzan#Disney_version,1999,
+2842,2842,Tarzan of the Apes,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan,/wiki/Tarzan_(1999_film),1999,
+2843,2843,Tarzan,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan & Jane,/wiki/Tarzan_%26_Jane,2002,
+2844,2844,Tarzan of the Apes,,1995,/wiki/Tarzan_(book_series),Edgar Rice Burroughs,Tarzan II,/wiki/Tarzan_II,2005,
 2845,2845,Telefon,,1975,,Walter Wager,Telefon,/wiki/Telefon_(film),1977,
-2846,2846,Ten Against Caesar,Trail's End at 'Dobe Town,1952,,,Gun Fury,/wiki/Gun_Fury,1953,
+2846,2846,Ten Against Caesar,Trail's End at 'Dobe Town,1952,,Kathleen B. George,Gun Fury,/wiki/Gun_Fury,1953,
 2847,2847,Loving Care,,1984,,Andrew Neiderman,Tender Loving Care,/wiki/Tender_Loving_Care_(video_game),1999,
 2848,2848,The Terminal Man,,1972,/wiki/The_Terminal_Man,Michael Crichton,The Terminal Man,/wiki/The_Terminal_Man_(film),1974,0-394-44768-9
 2849,2849,Terms of Endearment,,1975,,Larry McMurtry,Terms of Endearment,/wiki/Terms_of_Endearment,1983,
@@ -2880,7 +2880,7 @@
 2878,2878,Thieves Like Us,,1937,/wiki/Thieves_Like_Us_(novel),Frederick A. Stokes,They Live by Night,/wiki/They_Live_by_Night,1950,
 2879,2879,Thieves Like Us,,1937,/wiki/Thieves_Like_Us_(novel),Frederick A. Stokes,Thieves Like Us,/wiki/Thieves_Like_Us_(film),1974,
 2880,2880,Thomasina: The Cat Who Thought She Was God,,1957,,Paul Gallico,The Three Lives of Thomasina,/wiki/The_Three_Lives_of_Thomasina,1964,
-2881,2881,Thor,,1993,,,Bad Moon,/wiki/Bad_Moon,1996,
+2881,2881,Thor,,1993,,Wayne Smith,Bad Moon,/wiki/Bad_Moon,1996,
 2882,2882,Thunder Mountain,,1935,,Zane Grey,Thunder Mountain,,1935,
 2883,2883,Thunder Mountain,,1935,,Zane Grey,Thunder Mountain,,1947,
 2884,2884,Thunderball,,1961,/wiki/Thunderball_(novel),Ian Fleming,Thunderball,/wiki/Thunderball_(film),1965,
@@ -2899,7 +2899,7 @@
 2897,2897,Three-Ten to Yuma,,1953,/wiki/Three-Ten_to_Yuma,Elmore Leonard,3:10 to Yuma,/wiki/3:10_to_Yuma_(2007_film),2007,
 2898,2898,The Three Worlds of Johnny Handsome,,1973,,Morton Freedgood,Johnny Handsome,/wiki/Johnny_Handsome,1989,
 2899,2899,A Thrill a Minute with Jack Albany,,1967,,Morton Freedgood,Never a Dull Moment,/wiki/Never_a_Dull_Moment_(1968_film),1968,
-2900,2900,A Tiger Walks,,1960,,,A Tiger Walks,/wiki/A_Tiger_Walks,1964,
+2900,2900,A Tiger Walks,,1960,,Ian Niall,A Tiger Walks,/wiki/A_Tiger_Walks,1964,
 2901,2901,Time After Time,,1979,/wiki/Time_After_Time_(Alexander_novel),Karl Alexander,Time After Time,/wiki/Time_After_Time_(1979_film),1979,978-0-385-29054-8
 2902,2902,The Time Machine,,1895,/wiki/The_Time_Machine,H. G. Wells,The Time Machine,/wiki/The_Time_Machine_(1960_film),1960,
 2903,2903,The Time Machine,,1895,/wiki/The_Time_Machine,H. G. Wells,The Time Machine,"/wiki/The_Time_Machine#Film,_television_and_theatrical_adaptations_-_1978_television_film",1978,
@@ -3029,12 +3029,12 @@
 3027,3027,The Turning Point,,1977,,Hermann Kant,Der Aufenthalt,,1983,
 3028,3028,The Twenty-fifth Hour,Ora 25,1949,,Constantin Virgil Gheorghiu,The 25th Hour,/wiki/The_25th_Hour_(1967_film),1967,
 3029,3029,Twilight for the Gods,,1958,,Ernest K. Gann,Twilight for the Gods,/wiki/Twilight_for_the_Gods,1958,
-3030,3030,The Twilight Saga,Breaking Dawn,2008,/wiki/Twilight_(novel_series),,The Twilight Saga,/wiki/The_Twilight_Saga_(film_series),2008,
-3031,3031,The Twilight Saga,Breaking Dawn,2008,/wiki/Twilight_(novel_series),,Twilight,/wiki/Twilight_(2008_film),2008,
-3032,3032,The Twilight Saga,Breaking Dawn,2008,/wiki/Twilight_(novel_series),,The Twilight Saga: New Moon,/wiki/The_Twilight_Saga:_New_Moon,2009,
-3033,3033,The Twilight Saga,Breaking Dawn,2008,/wiki/Twilight_(novel_series),,The Twilight Saga: Eclipse,/wiki/The_Twilight_Saga:_Eclipse,2010,
-3034,3034,The Twilight Saga,Breaking Dawn,2008,/wiki/Twilight_(novel_series),,The Twilight Saga: Breaking Dawn – Part 1,/wiki/The_Twilight_Saga:_Breaking_Dawn_%E2%80%93_Part_1,2011,
-3035,3035,The Twilight Saga,Breaking Dawn,2008,/wiki/Twilight_(novel_series),,The Twilight Saga: Breaking Dawn – Part 2,/wiki/The_Twilight_Saga:_Breaking_Dawn_%E2%80%93_Part_2,2012,
+3030,3030,The Twilight Saga,,2008,/wiki/Twilight_(novel_series),Stephenie Meyer,The Twilight Saga,/wiki/The_Twilight_Saga_(film_series),2008,
+3031,3031,Twilight,,2008,/wiki/Twilight_(novel_series),Stephenie Meyer,Twilight,/wiki/Twilight_(2008_film),2008,
+3032,3032,New Moon,,2008,/wiki/Twilight_(novel_series),Stephenie Meyer,The Twilight Saga: New Moon,/wiki/The_Twilight_Saga:_New_Moon,2009,
+3033,3033,Eclipse,,2008,/wiki/Twilight_(novel_series),Stephenie Meyer,The Twilight Saga: Eclipse,/wiki/The_Twilight_Saga:_Eclipse,2010,
+3034,3034,Breaking Dawn,,2008,/wiki/Twilight_(novel_series),Stephenie Meyer,The Twilight Saga: Breaking Dawn – Part 1,/wiki/The_Twilight_Saga:_Breaking_Dawn_%E2%80%93_Part_1,2011,
+3035,3035,Breaking Dawn,,2008,/wiki/Twilight_(novel_series),Stephenie Meyer,The Twilight Saga: Breaking Dawn – Part 2,/wiki/The_Twilight_Saga:_Breaking_Dawn_%E2%80%93_Part_2,2012,
 3036,3036,The Twins,,2000,/wiki/The_Twins_(novel),Tessa de Loo,Twin Sisters,/wiki/Twin_Sisters_(2002_film),,1-900850-32-X
 3037,3037,The Twins,,2000,/wiki/The_Twins_(novel),Tessa de Loo,De tweeling,,2002,1-900850-32-X
 3038,3038,Two-Gun Man,,1929,,Stewart Edward White,Under a Texas Moon,/wiki/Under_a_Texas_Moon_(film),1929,
@@ -3062,8 +3062,8 @@
 3060,3060,Unforbidden Fruit,,1927,,Samuel Hopkins Adams,The Wild Party,/wiki/The_Wild_Party_(1929_film),1929,
 3061,3061,The Unforgiven,,1957,,Alan Le May,The Unforgiven,/wiki/The_Unforgiven_(1960_film),1960,
 3062,3062,Union Street,,1982,/wiki/Union_Street_(novel),Pat Barker,Stanley & Iris,/wiki/Stanley_%26_Iris,1989,0-86068-282-X
-3063,3063,Tuntematon sotilas,The Unknown Soldier,1954,/wiki/The_Unknown_Soldier_(novel),Väinö Linna,The Unknown Soldier,/wiki/The_Unknown_Soldier_(1955_film),1955,9.78951E+12
-3064,3064,Tuntematon sotilas,The Unknown Soldier,1954,/wiki/The_Unknown_Soldier_(novel),Väinö Linna,The Unknown Soldier,/wiki/The_Unknown_Soldier_(1985_film),1985,9.78951E+12
+3063,3063,Tuntematon sotilas,The Unknown Soldier,1954,/wiki/The_Unknown_Soldier_(novel),Väinö Linna,The Unknown Soldier,/wiki/The_Unknown_Soldier_(1955_film),1955,9.79E+12
+3064,3064,Tuntematon sotilas,The Unknown Soldier,1954,/wiki/The_Unknown_Soldier_(novel),Väinö Linna,The Unknown Soldier,/wiki/The_Unknown_Soldier_(1985_film),1985,9.79E+12
 3065,3065,Useless Cowboy,,1943,,Alan Le May,Along Came Jones,/wiki/Along_Came_Jones_(film),1945,
 3066,3066,Valdez Is Coming,,1970,,Elmore Leonard,Valdez Is Coming,/wiki/Valdez_Is_Coming,1971,
 3067,3067,Valley of the Dolls,,1966,/wiki/Valley_of_the_Dolls,Jacqueline Susann,Valley of the Dolls,/wiki/Valley_of_the_Dolls_(film),1967,978-0802135193
@@ -3084,8 +3084,8 @@
 3082,3082,Vanity Fair,,1847,/wiki/Vanity_Fair_(novel),William Makepeace Thackeray,Vanity Fair,/wiki/Vanity_Fair_(2004_film),2004,
 3083,3083,Vanity Row,,1953,,W. R. Burnett,Accused of Murder,/wiki/Accused_of_Murder,1956,
 3084,3084,Vennelalo Adapilla,,1991,,Yandamuri Veerendranath,Beladingala Baale,/wiki/Beladingala_Baale,1995,
-3085,3085,Vengeance,,1984,/wiki/Vengeance_(Jonas_book),[3],Sword of Gideon,/wiki/Sword_of_Gideon,1986,0-671-50611-0
-3086,3086,Vengeance,,1984,/wiki/Vengeance_(Jonas_book),[3],Munich,/wiki/Munich_(film),2005,0-671-50611-0
+3085,3085,Vengeance,,1984,/wiki/Vengeance_(Jonas_book),George Jonas,Sword of Gideon,/wiki/Sword_of_Gideon,1986,0-671-50611-0
+3086,3086,Vengeance,,1984,/wiki/Vengeance_(Jonas_book),George Jonas,Munich,/wiki/Munich_(film),2005,0-671-50611-0
 3087,3087,Vengeance Valley,,1949,,Luke Short,Vengeance Valley,/wiki/Vengeance_Valley,1951,
 3088,3088,A Very Private Gentleman,,1990,,Martin Booth,The American,/wiki/The_American_(2010_film),2010,
 3089,3089,Vespers in Vienna,,1947,/wiki/Vespers_in_Vienna,Bruce Marshall,The Red Danube,/wiki/The_Red_Danube,1949,
@@ -3155,7 +3155,7 @@
 3153,3153,War and Peace,,1869,/wiki/War_and_Peace,Leo Tolstoy,War and Peace,/wiki/War_and_Peace_(1956_film),1956,
 3154,3154,War and Peace,,1869,/wiki/War_and_Peace,Leo Tolstoy,War and Peace,/wiki/War_and_Peace_(film_series),1966,
 3155,3155,War Horse,,1982,/wiki/War_Horse_(novel),Michael Morpurgo,War Horse,/wiki/War_Horse_(film),2011,978-0-439-79664-4
-3156,3156,The War of the Roses,,1981,/wiki/The_War_of_the_Roses_(novel),,The War of the Roses,/wiki/The_War_of_the_Roses_(film),1989,0-446-51220-6
+3156,3156,The War of the Roses,,1981,/wiki/The_War_of_the_Roses_(novel),Warren Adler,The War of the Roses,/wiki/The_War_of_the_Roses_(film),1989,0-446-51220-6
 3157,3157,The War of the Worlds,,1898,/wiki/The_War_of_the_Worlds_(novel),H. G. Wells,The War of the Worlds,/wiki/The_War_of_the_Worlds_(1953_film),1953,
 3158,3158,The War of the Worlds,,1898,/wiki/The_War_of_the_Worlds_(novel),H. G. Wells,The War of the Worlds: Next Century,/wiki/The_War_of_the_Worlds:_Next_Century,1983,
 3159,3159,The War of the Worlds,,1898,/wiki/The_War_of_the_Worlds_(novel),H. G. Wells,War of the Worlds,/wiki/War_of_the_Worlds_(2005_film),2005,
@@ -3165,7 +3165,7 @@
 3163,3163,The War of the Worlds,,1898,/wiki/The_War_of_the_Worlds_(novel),H. G. Wells,War of the Worlds 2: The Next Wave,/wiki/War_of_the_Worlds_2:_The_Next_Wave,2008,
 3164,3164,Wat zien ik!?,Haar van Boven,1969,,,Wat zien ik,/wiki/Business_Is_Business_(film),,
 3165,3165,Wat zien ik!?,Haar van Boven,1969,,,Business Is Business,,1971,
-3166,3166,A Watcher in the Woods,,1976,/wiki/A_Watcher_in_the_Woods,,The Watcher in the Woods,/wiki/The_Watcher_in_the_Woods,1980,0-689-30511-7
+3166,3166,A Watcher in the Woods,,1976,/wiki/A_Watcher_in_the_Woods,Florence Engel Randall,The Watcher in the Woods,/wiki/The_Watcher_in_the_Woods,1980,0-689-30511-7
 3167,3167,Water for Elephants,,2006,/wiki/Water_for_Elephants,Sara Gruen,Water for Elephants,/wiki/Water_for_Elephants_(film),2011,1-56512-499-5
 3168,3168,The Water Hole,,1927,,Zane Grey,The Water Hole,/wiki/The_Water_Hole,1928,
 3169,3169,Watership Down,,1972,/wiki/Watership_Down,Richard Adams,Watership Down,/wiki/Watership_Down_(film),1978,0-901720-31-3
@@ -3238,20 +3238,20 @@
 3236,3236,The Wind in the Willows,,1908,/wiki/The_Wind_in_the_Willows,Kenneth Grahame,The Wind in the Willows,"/wiki/The_Wind_in_the_Willows#In_2010,_it_was_announced_that_Ray_Griggs_was_developing_a_live-action/CGI_blend_adaptation_of_the_story,_scheduled_to_begin_filming_in_late_2010_in_New_Zealand.",2012,
 3237,3237,The Wings of the Dove,,1902,/wiki/The_Wings_of_the_Dove,Henry James,The Wings of the Dove,/wiki/The_Wings_of_the_Dove_(1981_film),1981,
 3238,3238,The Wings of the Dove,,1902,/wiki/The_Wings_of_the_Dove,Henry James,The Wings of the Dove,/wiki/The_Wings_of_the_Dove_(1997_film),1997,
-3239,3239,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,,Disney's Winnie the Pooh,/wiki/Winnie_the_Pooh_(franchise),1977,
-3240,3240,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,,The Many Adventures of Winnie the Pooh,/wiki/The_Many_Adventures_of_Winnie_the_Pooh,1977,
-3241,3241,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,,Winnie the Pooh and Friends,/wiki/Winnie_the_Pooh_and_Friends,1985,
-3242,3242,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,,Pooh's Grand Adventure: The Search for Christopher Robin,/wiki/Pooh%27s_Grand_Adventure:_The_Search_for_Christopher_Robin,1997,
-3243,3243,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,,Winnie the Pooh: Seasons of Giving,/wiki/Winnie_the_Pooh:_Seasons_of_Giving,1999,
-3244,3244,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,,The Tigger Movie,/wiki/The_Tigger_Movie,2000,
-3245,3245,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,,Winnie the Pooh: A Very Merry Pooh Year,/wiki/Winnie_the_Pooh:_A_Very_Merry_Pooh_Year,2002,
-3246,3246,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,,Piglet's Big Movie,/wiki/Piglet%27s_Big_Movie,2003,
-3247,3247,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,,Winnie the Pooh: Springtime with Roo,/wiki/Winnie_the_Pooh:_Springtime_with_Roo,2004,
-3248,3248,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,,Pooh's Heffalump Movie,/wiki/Pooh%27s_Heffalump_Movie,2005,
-3249,3249,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,,Pooh's Heffalump Halloween Movie,/wiki/Pooh%27s_Heffalump_Halloween_Movie,2005,
-3250,3250,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,,My Friends Tigger and Pooh: Super Sleuth Christmas Movie,/wiki/Super_Sleuth_Christmas_Movie,2007,
-3251,3251,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,,Tigger and Pooh and a Musical Too,/wiki/Tigger_and_Pooh_and_a_Musical_Too,2009,
-3252,3252,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,,Winnie the Pooh,/wiki/Winnie_the_Pooh_(2011_film),2011,
+3239,3239,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,A.A. Milne,Disney's Winnie the Pooh,/wiki/Winnie_the_Pooh_(franchise),1977,
+3240,3240,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,A.A. Milne,The Many Adventures of Winnie the Pooh,/wiki/The_Many_Adventures_of_Winnie_the_Pooh,1977,
+3241,3241,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,A.A. Milne,Winnie the Pooh and Friends,/wiki/Winnie_the_Pooh_and_Friends,1985,
+3242,3242,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,A.A. Milne,Pooh's Grand Adventure: The Search for Christopher Robin,/wiki/Pooh%27s_Grand_Adventure:_The_Search_for_Christopher_Robin,1997,
+3243,3243,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,A.A. Milne,Winnie the Pooh: Seasons of Giving,/wiki/Winnie_the_Pooh:_Seasons_of_Giving,1999,
+3244,3244,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,A.A. Milne,The Tigger Movie,/wiki/The_Tigger_Movie,2000,
+3245,3245,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,A.A. Milne,Winnie the Pooh: A Very Merry Pooh Year,/wiki/Winnie_the_Pooh:_A_Very_Merry_Pooh_Year,2002,
+3246,3246,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,A.A. Milne,Piglet's Big Movie,/wiki/Piglet%27s_Big_Movie,2003,
+3247,3247,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,A.A. Milne,Winnie the Pooh: Springtime with Roo,/wiki/Winnie_the_Pooh:_Springtime_with_Roo,2004,
+3248,3248,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,A.A. Milne,Pooh's Heffalump Movie,/wiki/Pooh%27s_Heffalump_Movie,2005,
+3249,3249,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,A.A. Milne,Pooh's Heffalump Halloween Movie,/wiki/Pooh%27s_Heffalump_Halloween_Movie,2005,
+3250,3250,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,A.A. Milne,My Friends Tigger and Pooh: Super Sleuth Christmas Movie,/wiki/Super_Sleuth_Christmas_Movie,2007,
+3251,3251,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,A.A. Milne,Tigger and Pooh and a Musical Too,/wiki/Tigger_and_Pooh_and_a_Musical_Too,2009,
+3252,3252,Winnie-the-Pooh,The House at Pooh Corner,1928,/wiki/Winnie-the-Pooh,A.A. Milne,Winnie the Pooh,/wiki/Winnie_the_Pooh_(2011_film),2011,
 3253,3253,Winter Meeting,,1946,,Grace Zaring Stone,Winter Meeting,/wiki/Winter_Meeting,1948,
 3254,3254,Winter's Bone,,2006,,Daniel Woodrell,Winter's Bone,/wiki/Winter%27s_Bone,2010,
 3255,3255,The Winter of Our Discontent,,1961,/wiki/The_Winter_of_Our_Discontent,John Steinbeck,The Winter of Our Discontent,/wiki/The_Winter_of_Our_Discontent_(film),1983,
@@ -3260,11 +3260,11 @@
 3258,3258,The Witches of Eastwick,,1984,/wiki/The_Witches_of_Eastwick,John Updike,The Witches of Eastwick,/wiki/The_Witches_of_Eastwick_(film),1987,0-394-53760-2
 3259,3259,Witchfinder General,,1966,/wiki/Witchfinder_General_(novel),Ronald Bassett,Witchfinder General,/wiki/Witchfinder_General_(film),1968,
 3260,3260,Witch's Milk,,1968,,Peter De Vries,Pete 'n' Tillie,/wiki/Pete_%27n%27_Tillie,1972,
-3261,3261,with a Perfect Stranger,Day with a Perfect Stranger,2006,,,The Perfect Stranger,/wiki/The_Perfect_Stranger_(film)#Sequels,2005,
-3262,3262,with a Perfect Stranger,Day with a Perfect Stranger,2006,,,The Perfect Stranger,/wiki/The_Perfect_Stranger_(film),2005,
-3263,3263,with a Perfect Stranger,Day with a Perfect Stranger,2006,,,Another Perfect Stranger,/wiki/Another_Perfect_Stranger,2007,
-3264,3264,with a Perfect Stranger,Day with a Perfect Stranger,2006,,,The Perfect Gift,/wiki/The_Perfect_Gift,2009,
-3265,3265,The Witnesses,,1971,,,The Bedroom Window,/wiki/The_Bedroom_Window_(1987_film),1987,
+3261,3261,Dinner with a Perfect Stranger: An Invitation Worth Considering,,2006,,David Gregory,The Perfect Stranger,/wiki/The_Perfect_Stranger_(film)#Sequels,2005,
+3262,3262,Dinner with a Perfect Stranger: An Invitation Worth Considering,,2006,,David Gregory,The Perfect Stranger,/wiki/The_Perfect_Stranger_(film),2005,
+3263,3263,Day with a Perfect Stranger,,2006,,David Gregory,Another Perfect Stranger,/wiki/Another_Perfect_Stranger,2007,
+3264,3264,Day with a Perfect Stranger,,2006,,David Gregory,The Perfect Gift,/wiki/The_Perfect_Gift,2009,
+3265,3265,The Witnesses,,1971,,Anne Holden,The Bedroom Window,/wiki/The_Bedroom_Window_(1987_film),1987,
 3266,3266,Woe to Live On,,1987,,Daniel Woodrell,Ride with the Devil,/wiki/Ride_with_the_Devil_(film),1999,
 3267,3267,The Wolfen,,1978,/wiki/The_Wolfen,Whitley Strieber,Wolfen,/wiki/Wolfen_(film),1981,688033474
 3268,3268,The Woman Chaser,,1960,,Charles Willeford,The Woman Chaser,/wiki/The_Woman_Chaser,1999,
@@ -3329,12 +3329,12 @@
 3327,3327,Wuthering Heights,,1847,/wiki/Wuthering_Heights,Emily Brontë,Emily Brontë's Wuthering Heights,/wiki/Emily_Bront%C3%AB%27s_Wuthering_Heights,1992,0-486-29256-8
 3328,3328,Wuthering Heights,,1847,/wiki/Wuthering_Heights,Emily Brontë,Wuthering Heights,/wiki/Wuthering_Heights_(2003_film),2003,0-486-29256-8
 3329,3329,The Warriors,,1965,/wiki/The_Warriors_(Sol_Yurick_novel),Sol Yurick,The Warriors,/wiki/The_Warriors_(film),1979,0-8021-3992-2
-3330,3330,Yaju no seishun,,1959,/wiki/Yaju_no_seishun,,Youth of the Beast,/wiki/Youth_of_the_Beast,1963,
-3331,3331,The Year of Living Dangerously,,1978,/wiki/The_Year_of_Living_Dangerously_(novel),Christopher Koch,The Year of Living Dangerously,/wiki/The_Year_of_Living_Dangerously_(film),1982,9.78073E+12
+3330,3330,Yaju no seishun,,1959,/wiki/Yaju_no_seishun,Haruhiko Oyabu,Youth of the Beast,/wiki/Youth_of_the_Beast,1963,
+3331,3331,The Year of Living Dangerously,,1978,/wiki/The_Year_of_Living_Dangerously_(novel),Christopher Koch,The Year of Living Dangerously,/wiki/The_Year_of_Living_Dangerously_(film),1982,9.78E+12
 3332,3332,The Year of the Angry Rabbit,,1964,/wiki/The_Year_of_the_Angry_Rabbit,Russell Braddon,Night of the Lepus,/wiki/Night_of_the_Lepus,1972,
 3333,3333,The Year of the Horse,,1965,,Eric S. Hatch,The Horse in the Gray Flannel Suit,/wiki/The_Horse_in_the_Gray_Flannel_Suit,1968,
 3334,3334,Yellowstone Kelly,,1958,,Henry Wilson Allen,Yellowstone Kelly,/wiki/Yellowstone_Kelly,1959,
-3335,3335,Les yeux sans visage,The Eyes Without a Face,1959,,,Eyes Without a Face,/wiki/Eyes_Without_a_Face,1960,
+3335,3335,Les yeux sans visage,The Eyes Without a Face,1959,,Jean Redon,Eyes Without a Face,/wiki/Eyes_Without_a_Face,1960,
 3336,3336,Yield to the Night,,1954,,Joan Henry,Yield to the Night,/wiki/Yield_to_the_Night,1956,
 3337,3337,"Yo, Puta",,2003,,Isabel Pisano,Whore,/wiki/Whore_(2004_film),2004,
 3338,3338,You Only Live Twice,,1964,/wiki/You_Only_Live_Twice_(novel),Ian Fleming,You Only Live Twice,/wiki/You_Only_Live_Twice_(film),1967,
@@ -3345,11 +3345,11 @@
 3343,3343,Young Man with a Horn,,1938,/wiki/Young_Man_with_a_Horn_(novel),Dorothy Baker,Young Man with a Horn,/wiki/Young_Man_with_a_Horn_(film),1950,
 3344,3344,De Zaak Alzheimer,The Alzheimer Case,2000,,Jef Geeraerts,De Zaak Alzheimer,/wiki/The_Alzheimer_Case,,
 3345,3345,De Zaak Alzheimer,The Alzheimer Case,2000,,Jef Geeraerts,The Alzheimer Case,,2003,
-3346,3346,The Story of Zarak Khan,,1949,,,Zarak,/wiki/Zarak,1956,
+3346,3346,The Story of Zarak Khan,,1949,,A. J. Bevan,Zarak,/wiki/Zarak,1956,
 3347,3347,Zathura,,2002,/wiki/Zathura,Chris Van Allsburg,Zathura,/wiki/Zathura_(film),2005,978-0-618-25396-8
 3348,3348,Zazie in the Metro,Zazie dans le métro,1959,/wiki/Zazie_in_the_Metro,Raymond Queneau,Zazie in the Metro,/wiki/Zazie_dans_le_M%C3%A9tro,,
 3349,3349,Zazie in the Metro,Zazie dans le métro,1959,/wiki/Zazie_in_the_Metro,Raymond Queneau,Zazie dans le Métro,,1960,
 3350,3350,De Zesde Mei,,2003,,Tomas Ross,5-Jun,/wiki/06/05,2003,
-3351,3351,Zona Zamfirova,,1906,/wiki/Zona_Zamfirova,,Zona Zamfirova,/wiki/Zona_Zamfirova_(film),2002,
+3351,3351,Zona Zamfirova,,1906,/wiki/Zona_Zamfirova,Stefan Sremac,Zona Zamfirova,/wiki/Zona_Zamfirova_(film),2002,
 3352,3352,Zorba the Greek,,1946,/wiki/Zorba_the_Greek_(novel),Nikos Kazantzakis,Zorba the Greek,/wiki/Zorba_the_Greek_(film),1964,
 3353,3353,Zuqāq al-Midaq,Midaq Alley,1947,/wiki/Midaq_Alley_(novel),Naguib Mahfouz,El callejón de los milagros,/wiki/El_callej%C3%B3n_de_los_milagros,1994,
