@@ -1,0 +1,15 @@
+Gathering Data Instructions
+
+
+Getting Book/Movie Pairs
+- Scraped Wikipedia pages 
+- Scraped ISBNs from book wikipedia pages where possible
+- 
+
+
+Gathering Book Data
+- Sign up for goodreads API key
+- Took Book/Movie pair list and do a little bit of editing on book titles on series that didn't scrape cleanly from 
+- Use data from Book/Movie pair list (isbn, title, author, alternative title) and iterate through the best choices for finding a match to get goodreads id using python script - Get_Book_Ids_Mapping_file.ipynb
+- Take output of this file -include the title/author for the match from goodreads and manually check titles that didn't have an exact match on isbn or title+author and make manual adjustments when the match is bad
+- Input this file into the goodreads_data_collection.py script which web scrapes Goodreads for data about the book, book genres, and the first 300 reviews for each book (if >300). Note for our scraping, we used a rotating proxy service to ensure the IP would not get blocked but have removed that personal info from the script so if you run this script, should be aware of that risk. The script will take several days to run when used on the full list. 
