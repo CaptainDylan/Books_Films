@@ -1,0 +1,130 @@
+---
+title: "Semantic Analysis - Regression"
+author: "Lauren"
+date: "March 16, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(SnowballC)
+library(RMySQL)
+library(tidytext)
+library(dplyr)
+library(tidyr)
+```
+
+```{r}
+con <- dbConnect(MySQL(),
+  dbname = "reviews",
+  host = "dvaproject.c9f0lti9xqdg.us-east-1.rds.amazonaws.com",
+  port = 3306,
+  user = "dva",
+  password = "DVA2019!"
+  )
+dbListTables(con)
+# <!-- wordStem(c('taste',"tasted")) -->
+```
+```{r}
+# dbSendQuery(mydb, 'drop table if exists some_table, some_other_table')
+rs = dbSendQuery(con, "select cl.id, cleaned, rw.rating
+                      from movie_reviews_cleaned cl
+                      	inner join movie_reviews_raw_final rw
+                      		on cl.id = rw.id
+                      ")
+data = fetch(rs, n=-1)
+head(data,10)
+```
+
+
+```{r}
+#does the review contain these words?
+# bad
+# love
+# fan
+# classic
+# pretty
+# beautiful
+# perfect
+# excellent
+# top
+# fun
+# worth
+# amazing
+# wonderful
+# loved
+# enjoy
+
+#remove ratings = ?
+data <- data[data$rating != '?',c("rating","cleaned")]
+data <- transform(data, rating = as.numeric(rating))
+#data
+
+#add cols
+data$bad <- 0
+data[grep("bad", tolower(data$cleaned)) ,"bad"] <- 1
+
+data$love <-0
+data[grep("love", tolower(data$cleaned)) ,"love"]<-1
+
+data$fan <-0
+data[grep("fan", tolower(data$cleaned)) ,"fan"] <- 1
+
+data$classic <-0
+data[grep("classic", tolower(data$cleaned)) ,"classic"] <- 1
+
+data$pretty <- 0
+data[grep("pretty", tolower(data$cleaned)) ,"pretty"] <- 1
+
+data$beautiful <-0
+data[grep("beautiful", tolower(data$cleaned)) ,"beautiful"] <- 1
+
+data$perfect <-0
+data[grep("perfect", tolower(data$cleaned)) ,"perfect"] <- 1
+
+data$excellent <-0
+data[grep("excellent", tolower(data$cleaned)) ,"excellent"] <- 1
+
+data$top <-0
+data[grep("top", tolower(data$cleaned)) ,"top"] <- 1
+
+data$fun <-0
+data[grep("fun", tolower(data$cleaned)) ,"fun"] <- 1
+
+data$worth<-0
+data[grep("worth", tolower(data$cleaned)) ,"worth"] <- 1
+
+data$amazing<-0
+data[grep("amazing", tolower(data$cleaned)) ,"amazing"] <- 1
+
+data$wonderful<-0
+data[grep("wonderful", tolower(data$cleaned)) ,"wonderful"] <- 1
+
+data$loved<-0
+data[grep("loved", tolower(data$cleaned)) ,"loved"] <- 1
+
+data$enjoy<-0
+data[grep("enjoy", tolower(data$cleaned)) ,"enjoy"] <- 1
+```
+
+```{r}
+data
+```
+
+
+```{r}
+data$cleaned = NULL
+#data[,"id"] <-list(NULL)
+
+lm.cleaned <- lm(rating~.,data)
+summary(lm.cleaned)
+
+mean((data$rating - lm.cleaned$fitted.values)^2)
+
+plot(lm.cleaned)
+
+```
+
+
+
+
+

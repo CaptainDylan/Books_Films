@@ -1,0 +1,274 @@
+---
+title: "Semantic Analysis"
+author: "Lauren"
+date: "March 3, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(SnowballC)
+library(RMySQL)
+library(tidytext)
+library(dplyr)
+library(tidyr)
+```
+
+```{r}
+con <- dbConnect(MySQL(),
+  dbname = "reviews",
+  host = "dvaproject.c9f0lti9xqdg.us-east-1.rds.amazonaws.com",
+  port = 3306,
+  user = "dva",
+  password = "DVA2019!"
+  )
+dbListTables(con)
+# <!-- wordStem(c('taste',"tasted")) -->
+```
+```{r}
+# dbSendQuery(mydb, 'drop table if exists some_table, some_other_table')
+rs = dbSendQuery(con, "select * from movie_reviews_cleaned")
+data = fetch(rs, n=-1)
+head(data,10)
+```
+```{r}
+
+rev_unigram <- data %>% 
+  unnest_tokens(word,cleaned) %>%
+  anti_join(stop_words) %>%
+  mutate(word=wordStem(word))
+
+rev_unigram
+```
+```{r}
+rev_unigram %>%
+  count( word, name = "num") %>%
+  arrange(desc(num))
+
+```
+
+```{r}
+data %>%
+  unnest_tokens(word,cleaned) %>%
+  #anti_join(stop_words) %>%
+  count(word, name = "num") %>%
+  arrange(desc(num))
+
+```
+```{r}
+data %>%
+  unnest_tokens(word,cleaned) %>%
+  anti_join(stop_words) %>%
+  count(word, name = "num") %>%
+  arrange(desc(num))
+
+```
+
+```{r}
+rev %>%
+  count( id, word, name = "num") %>%
+  arrange(desc(num))
+
+```
+
+```{r}
+sent_score <- get_sentiments("afinn")
+sent_emotions <- get_sentiments("nrc")
+
+sent_score[sent_score$word == "awful",]
+```
+
+```{r SentimentScoreJoin}
+score.df <- rev %>% 
+  inner_join(sent_score, by = "word")
+
+score.df[score.df$id == "197567",]
+```
+```{r calculateJoins}
+score.df %>%
+  group_by(id) %>%
+  summarise(
+    score = sum(score)
+  )
+```
+
+```{r}
+score.df %>%
+  count( id, word, name = "num") %>%
+  arrange(desc(num))
+
+```
+
+
+```{r}
+#load data
+dbWriteTable(mydb, name='table_name', value=data.frame.name)
+```
+
+
+```{r}
+rs_small = dbSendQuery(con, "select * from movie_reviews_cleaned where id in (10,11,12,13,14,15,16,17,18,19,20)")
+small_set = fetch(rs_small, n=-1)
+head(small_set,10)
+```
+
+
+```{r prepare small dataset}
+rev_unigram_small <- small_set %>% 
+  unnest_tokens(word,cleaned)
+# %>% #tokenize
+#   anti_join(stop_words) #remove stop - commented out because was remioving words like "good"
+# %>%
+#   mutate(word=wordStem(word))
+rev_unigram_small
+```
+
+```{r associate words with score}
+small_score <- rev_unigram_small %>%
+  count( id, word, name = "num") %>%
+  arrange(desc(num)) %>%
+  inner_join(sent_score, by = "word")
+
+small_score_stem <- rev_unigram_small %>%
+  mutate(word_stem=wordStem(word)) %>%
+  left_join(sent_score, by = c("word_stem"="word"))
+
+small_score_stem_NA <- small_score_stem[is.na(small_score_stem$score),]%>%
+  # count( id, word, name = "num") %>%
+  # arrange(desc(num)) %>%
+  inner_join(sent_score, by ="word")
+names(small_score_stem_NA)[6] <-"score"
+
+small_score_dict_final <-small_score_stem[!is.na(small_score_stem$score),] %>% 
+  bind_rows(small_score_stem_NA)
+
+small_score_dict_final[6]<-NULL
+
+# small_score_dict_final[small_score_dict_final$word == "best",]
+# small_score_stem[!is.na(small_score_stem$score)&small_score_stem$word == "best",]
+# 
+# small_score_stem[small_score_stem$word == "best",]
+# small_score_stem_NA[small_score_stem_NA$word == "best",]
+# 
+# parts_of_speech[parts_of_speech$word == "best",]
+
+```
+```{r POS tagger}
+
+POS_small <- rev_unigram_small %>% 
+  left_join(parts_of_speech, by = "word")
+
+POS_small_NA <- POS_small[is.na(POS_small$pos), ] %>%
+  mutate(word_stem=wordStem(word)) %>%
+  left_join(parts_of_speech, by = c("word_stem"="word"))
+
+names(POS_small_NA)[5] <- "pos"
+# POS_small_NA
+
+POS_list <- POS_small[!is.na(POS_small$pos),c("word","pos")] %>%
+  bind_rows(POS_small_NA[,c("word","pos")])
+
+POS_list <-POS_list[!duplicated(POS_list),]
+POS_list[POS_list$word == "war",]
+```
+
+
+```{r ngram analysis}
+
+bigram_small <-small_set %>%
+  unnest_tokens(bigram, cleaned, token = "ngrams", n = 2) %>%
+  separate(bigram, c("word1", "word2"), sep = " ")
+
+POS_bigram <- bigram_small %>% 
+  left_join(POS_list, by = c("word1"="word")) %>%
+  left_join(POS_list, by = c("word2"="word"))
+  
+POS_bigram
+```
+```{r bigram creation}
+
+# library(data.table)
+#pick out nouns as "factors"
+POS_bigram[POS_bigram$pos.x=="Adjective"&POS_bigram$pos.y=="Noun",] %>%
+  filter(!is.na(word1))
+
+#pick out verb and noun
+POS_bigram[POS_bigram$pos.x %like% "Verb"&POS_bigram$pos.y=="Noun",] %>%
+  filter(!is.na(word1)) %>%
+  left_join(small_score_dict_final, by=c("word1"="word")) %>%
+  left_join(small_score_dict_final, by=c("word2"="word"))
+
+```
+```{r}
+#look at nouns, re-assign with neutral terms
+
+
+```
+
+```{r scoring}
+adj_score <- POS_bigram[POS_bigram$pos.x == "Adjective"|POS_bigram$pos.x == "Adverb",c("index", "id", "word1","word2")] %>%
+  filter(!is.na(word1)) %>%
+  left_join(small_score_dict_final[,c("word","score")], by=c("word1"="word")) %>%
+  left_join(small_score_dict_final[,c("word","score")], by=c("word2"="word")) %>%
+  distinct()
+
+# sent_score[sent_score$word == "good",]
+# small_score_dict_final[small_score_dict_final$word =="good",]
+
+adj_score[is.na(adj_score$score.x),"score.x"] <- 0
+adj_score[is.na(adj_score$score.y),"score.y"] <- 0
+
+# adj_score %>% 
+#   mutate(total = adj_score$score.y + adj_score$score.x) %>%
+#   group_by(id) %>%
+#   summarise_each(
+#    # score = sum(score.x+score.y)
+#     vars = total,
+#     funs = c(Mean="mean")
+# )
+
+adj_score[adj_score$id == 11,]
+
+adj_score %>%
+  mutate(total = adj_score$score.y + adj_score$score.x) %>%
+  group_by(id) %>%
+  summarise(
+    total_avg = mean(total)
+  )
+
+#5 first positive, then negative
+#7 is positive - where did great, best, reccommed go?
+#9 is positive
+#10 is pretty neutral, harad to tell...
+#14 - idioms are hard!
+
+```
+
+
+```{r}
+trigram_small <-small_set %>%
+  unnest_tokens(bigram, cleaned, token = "ngrams", n = 3) %>%
+  separate(bigram, c("word1", "word2","word3"), sep = " ")
+
+trigram_small
+```
+```{r}
+bigram_small[bigram_small$word1 == "like",]
+bigram_small[bigram_small$word2 == "not",]
+small_set[small_set$id==1,]
+```
+
+```{r}
+# small_score %>%
+#   group_by(id) %>%
+#   count( id, word, name = "num") %>%
+#   arrange(desc(num))
+# small_score_stem %>%
+#   group_by(id) %>%
+#   count( id, word, name = "num") %>%
+#   arrange(desc(num))
+
+  # summarise(
+  #   score = sum(score)
+  # )
+# sent_score[sent_score$word == "movi",]
+```
