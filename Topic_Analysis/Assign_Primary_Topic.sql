@@ -37,6 +37,8 @@ FROM movie_reviews
 GROUP BY primary_topic_id
 ORDER BY primary_topic_id;
 
+select * from movie_reviews limit 99;
+
 select * from movie_reviews where primary_topic_id = 28;
 
 select rating, count(*)
@@ -72,3 +74,44 @@ ON movie_topic_descriptions.topic = t2.topic
 
 select * from movie_topic_descriptions;
 
+#### Do update for book reviews:
+ALTER TABLE book_reviews ADD primary_topic_id smallint NULL;
+ALTER TABLE book_reviews ADD primary_topic_prob double NULL;
+
+UPDATE book_reviews
+INNER JOIN (
+select movie_review_topics.reviewid,
+	movie_review_topics.topicid,
+	movie_review_topics.topicprob
+from movie_review_topics 
+inner join (
+select reviewid, max(topicprob) as maxprob
+from movie_review_topics 
+group by reviewid) AS MaxTopic
+ON movie_review_topics.topicprob = MaxTopic.maxprob
+) AS TopTopic
+ON book_reviews.id = TopTopic.reviewid
+SET primary_topic_id = TopTopic.topicid,
+    primary_topic_prob = TopTopic.topicprob;
+
+
+CREATE TABLE book_topic_descriptions
+AS
+select Topic, 
+  group_concat(Word ORDER BY Prob DESC SEPARATOR ',') AS TopicDesc
+from book_topics t
+group by Topic;
+
+ALTER TABLE book_topic_descriptions ADD ShortDesc varchar(100) NULL;
+
+UPDATE book_topic_descriptions
+INNER JOIN
+(select Topic, 
+  group_concat(Word ORDER BY Prob DESC SEPARATOR ',') AS NewDesc
+from book_topics t
+where t.WordOrder <= 3
+group by Topic) AS t2
+ON book_topic_descriptions.topic = t2.topic
+ SET ShortDesc = t2.NewDesc;
+
+select * from book_topic_descriptions;
