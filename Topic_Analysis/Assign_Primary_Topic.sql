@@ -12,6 +12,11 @@ order by movie_review_topics.reviewid limit 99;
 
 ALTER TABLE movie_reviews ADD primary_topic_id smallint NULL;
 ALTER TABLE movie_reviews ADD primary_topic_prob double NULL;
+-- select * from movie_review_topics where reviewid = 15;
+-- to reset:
+-- UPDATE movie_reviews
+-- SET primary_topic_id = NULL,
+--    primary_topic_prob = NULL;
 
 -- Update review with primary topic
 UPDATE movie_reviews
@@ -24,7 +29,8 @@ inner join (
 select reviewid, max(topicprob) as maxprob
 from movie_review_topics 
 group by reviewid) AS MaxTopic
-ON movie_review_topics.topicprob = MaxTopic.maxprob
+ON movie_review_topics.reviewid = MaxTopic.reviewid
+  AND movie_review_topics.topicprob = MaxTopic.maxprob
 ) AS TopTopic
 ON movie_reviews.id = TopTopic.reviewid
 SET primary_topic_id = TopTopic.topicid,
@@ -50,6 +56,36 @@ from movie_reviews
 WHERE primary_topic_id is not null
 group by primary_topic_id
 order by primary_topic_id;
+
+-- Comparison of Topic 28 vs non-Topic 28 and avg rating
+select case when primary_topic_id = 0 then 'Books' else 'Not Books' end, 
+avg(rating) as avgrating, count(*) as cnt
+from movie_reviews
+WHERE primary_topic_id is not null
+group by case when primary_topic_id = 0 then 'Books' else 'Not Books' end
+order by case when primary_topic_id = 0 then 'Books' else 'Not Books' end;
+
+select cast(rating as unsigned), ifnull(topicprob,0) as topicprob
+ from movie_reviews mr
+left join movie_review_topics mrt 
+on mr.id = mrt.reviewid
+    and mrt.topicid = 0
+where rating != '?';
+
+select rating, avg(topicprob) as topicprob, count(*)
+ from movie_reviews mr
+inner join movie_review_topics mrt 
+on mr.id = mrt.reviewid
+    and mrt.topicid = 0
+where rating != '?'
+group by rating;
+
+select count(*)
+ from movie_reviews mr
+inner join movie_review_topics mrt 
+on mr.id = mrt.reviewid
+    and mrt.topicid = 28
+where rating != '?'
 
 #SET SESSION group_concat_max_len = 1024;
 
@@ -80,15 +116,15 @@ ALTER TABLE book_reviews ADD primary_topic_prob double NULL;
 
 UPDATE book_reviews
 INNER JOIN (
-select movie_review_topics.reviewid,
-	movie_review_topics.topicid,
-	movie_review_topics.topicprob
-from movie_review_topics 
+select book_review_topics.reviewid,
+	book_review_topics.topicid,
+	book_review_topics.topicprob
+from book_review_topics 
 inner join (
 select reviewid, max(topicprob) as maxprob
-from movie_review_topics 
+from book_review_topics 
 group by reviewid) AS MaxTopic
-ON movie_review_topics.topicprob = MaxTopic.maxprob
+ON book_review_topics.topicprob = MaxTopic.maxprob
 ) AS TopTopic
 ON book_reviews.id = TopTopic.reviewid
 SET primary_topic_id = TopTopic.topicid,
