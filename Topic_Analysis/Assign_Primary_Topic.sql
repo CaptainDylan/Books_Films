@@ -18,6 +18,7 @@ ALTER TABLE movie_reviews ADD primary_topic_prob double NULL;
 -- SET primary_topic_id = NULL,
 --    primary_topic_prob = NULL;
 
+# Run "Assign_Movie_Review_Topics" notebook
 -- Update review with primary topic
 UPDATE movie_reviews
 INNER JOIN (
@@ -85,9 +86,12 @@ select count(*)
 inner join movie_review_topics mrt 
 on mr.id = mrt.reviewid
     and mrt.topicid = 28
-where rating != '?'
+where rating != '?';
 
 #SET SESSION group_concat_max_len = 1024;
+DROP TABLE IF EXISTS movie_topics;
+# Run script "Get LDA Topics"
+DROP TABLE IF EXISTS movie_topic_descriptions;
 
 CREATE TABLE movie_topic_descriptions
 AS
@@ -111,8 +115,14 @@ ON movie_topic_descriptions.topic = t2.topic
 select * from movie_topic_descriptions;
 
 #### Do update for book reviews:
+# Run "Assign_Book_Review_Topics" notebook
 ALTER TABLE book_reviews ADD primary_topic_id smallint NULL;
 ALTER TABLE book_reviews ADD primary_topic_prob double NULL;
+-- to reset:
+-- UPDATE book_reviews
+-- SET primary_topic_id = NULL,
+--    primary_topic_prob = NULL;
+-- select * from book_reviews limit 9;
 
 UPDATE book_reviews
 INNER JOIN (
@@ -130,6 +140,10 @@ ON book_reviews.id = TopTopic.reviewid
 SET primary_topic_id = TopTopic.topicid,
     primary_topic_prob = TopTopic.topicprob;
 
+
+DROP TABLE IF EXISTS book_topics;
+# Run script "Get LDA Topics"
+DROP TABLE IF EXISTS book_topic_descriptions;
 
 CREATE TABLE book_topic_descriptions
 AS
