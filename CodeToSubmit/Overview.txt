@@ -1,0 +1,45 @@
+
+Qlik is directly connected to a mysql database where we have stored our dataset after gathering, processing, and topic analysis. Below is an overview of all the code used for these steps and algorithms that happened outside of the Qlik .qvf file to update or add data in mysql. 
+
+Gathering Data Instructions
+
+Getting Book/Movie Pairs
+- Scraped Wikipedia pages 
+- Scraped ISBNs from book wikipedia pages where possible
+
+Goodreads Data (all book data)
+- Sign up for goodreads API key
+- Took Book/Movie pair list and do a little bit of editing on book titles on series that didn't scrape cleanly from 
+- Use data from Book/Movie pair list (isbn, title, author, alternative title) and iterate through the best choices for finding a match to get goodreads id using python script - Get_Book_Ids_Mapping_file.ipynb
+- Take output of this file -include the title/author for the match from goodreads and manually check titles that didn't have an exact match on isbn or title+author and make manual adjustments when the match is bad
+- Input this file into the goodreads_data_collection.py script which web scrapes Goodreads for data about the book, book genres, and the first 300 reviews for each book (if >300). Note for our scraping, we used a rotating proxy service to ensure the IP would not get blocked but have removed that personal info from the script so if you run this script, should be aware of that risk. The script will take several days to run when used on the full list. Then use <ADD FILE> to send the data to mysql 
+
+
+Movie TMDb Data (movie-level data)
+
+Movie IMDB Data (provided files + review scraping)
+
+
+Data Processing Instructions
+
+- Script for Genre standardizing: genre_standardization.ipynb
+-  Script for adding normalized ratings: overallrating_standardize.ipynb
+* Text Cleaning scripts:
+	* book_review_cleaning2.ipynb and movie_review_cleaning2.ipynb
+	* These were used to clean the review text and remove stop words, standardize misspelled words, and lemmatize
+* book_review_cleaning_TopA_xT.ipynb, movie_review_cleaning_TopA_xT.ipynb	
+	* These are used to clean the text more for the word clouds, includes removing the title of the book/movie to help declutter the cloud.
+
+
+Topic Analysis:
+*  LDA_with_gensim.ipynb
+	*  Used to create several LDA topic models with varying number of topics; Runs coherence on each model to track the best model; Run separately for book reviews and movie reviews
+*  Get LDA Stats.ipynb
+	*  Get some statistics on the generated topics to compare
+*  Assign_Book_Review_Topics.ipynb, Assign_Movie_Review_Topics.ipynb
+	*  Take the preferred topic model and assign topics to individual reviews
+*  Assign_Book_Topics.ipynb, Assign_Movie_Topics.ipynb
+	*  Take the preferred topic model and assign topics to books/movies by combining all the reviews into one “document”
+*  Visualization.ipynb, Visualization-Books.ipynb
+	*  Use LDAVis to get an interactive visualization of the topics
+
