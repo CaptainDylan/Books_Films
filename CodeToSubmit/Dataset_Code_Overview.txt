@@ -1,16 +1,16 @@
 
-Qlik is directly connected to a mysql database where we have stored our dataset after gathering, processing, and topic analysis. Below is an overview of all the code used for these steps and algorithms that happened OUTSIDE of the Qlik .qvf file to store, update, or add data in mysql.
+To run our project, you only need the .qvf file linked to in the project README. 
+
+Project nstructions also ask for code used to get and process our dataset. Qlik is directly connected to a mysql database where we have stored our dataset after gathering, processing, and topic analysis. Below is an overview of the steps and code files used for these steps and algorithms that happened OUTSIDE of the Qlik .qvf file to store, update, or add data in mysql that feeds into the .qvf file. Code files can be found in their numbered subfolders. 
 
 
-Getting Book/Movie Pairs
+1. Getting Book/Movie Pairs
 --------------------------
-* Scraped Wikipedia pages 
-    * Dylan to add scripts
-* Scraped ISBNs from book wikipedia pages where possible
-    * Dylan or Claudia to add scripts
+* Run script to scrape Wikipedia pages of book/movie pairs: Scrape_Wiki_Films.ipynb 
+* Run script to scrape ISBNs of books from linked Wikipedia pages for as many books as possible in the list: Get Books ISBNs.ipynb
 
 
-Book Data Collection
+2. Book Data Collection
 --------------------------
 * Signed up for goodreads API key: https://www.goodreads.com/api
 * Took Book/Movie pair list from Wikipedia scrape and do a little bit of manual editing on book titles on series that didn't scrape cleanly from 
@@ -22,22 +22,27 @@ Book Data Collection
 * Send the data to mysql: send_bookdata_to_mysql.ipynb
 
 
-Movie Data Collection
+3. Movie Data Collection
 --------------------------
-* Movie TMDb Data API data collection
-    * Lauren H scripts to add scripts/any notes on sequence
-* Movie IMDB Data (merging tsvs w/ movie list from tmdb)
-    * Lauren H to add scripts/any notes on sequence
-* IMdb review scraping script
-    * Claudia to add scripts/sequence notes
+* Movie TMDb Data API data collection - Lauren H could you flesh out some notes on these a little?
+    * Pulling the movie database data.ipynb
+    * Getting imdb ids.ipynb
+    * Collect budget revenue runtime and posterpath.ipynb
+* Download Movie IMDB datasets here: https://www.imdb.com/interfaces/
+    * Lauren H - not sure which all tsvs were downloaded?
+    * Map imdbid to genre.ipynb
+    * Adding actor director data.ipynb
+    * Get rating and number of votes from IMDB.ipynb
+* Once you have the imdbids from TMDb API, run IMdb review scraping script: ScrapeIMDB.py
+    * Upload output to mySQL
 
-
-Data Processing 
+4. Data Processing 
 --------------------------
+* Run scripts to remove non-English reviews: Update Review Language.ipynb, Language Filter.ipynb
 * Connecting book/movie data: 
-    * Script Lauren H used for this
-* Genre cleaning/standardization: genre_standardization.ipynbt
-* Rating standardization: overallrating_standardize.ipynb
+    * Lauren H - add script for this?
+* Run script for genre cleaning/standardization: genre_standardization.ipynb
+* Run script for rating standardization: overallrating_standardize.ipynb
 * Review Text Cleaning scripts: 
     * book_review_cleaning2.ipynb and movie_review_cleaning2.ipynb
 	* These were used to clean the review text and remove stop words, standardize misspelled words, and lemmatize
@@ -45,7 +50,7 @@ Data Processing
 	* These are used to clean the text more for the word clouds, includes removing the title of the book/movie to help declutter the cloud.
 
 
-Text Analysis
+5. Text Analysis
 --------------------------
 *  LDA_with_gensim.ipynb
     *  Used to create several LDA topic models with varying number of topics; Runs coherence on each model to track the best model; Run separately for book reviews and movie reviews
