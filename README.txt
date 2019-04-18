@@ -49,7 +49,7 @@ There's a separate overview file there describing those code files.
 		- C:\Users[%Username%]\Documents\Qlik\Sense\Extensions\cl-cards-v1.5.0
 		- C:\Users[%Username%]\Documents\Qlik\Sense\Extensions\mekaarogram-v0.8.1
 
-4.	To install our file, all you will need to do is copy the "Read It or Watch It.qvf" file provided 	 in the CODE folder to the following path:
+4.	To install our file, all you will need to do is copy the "Read It or Watch It.qvf" file provided in the CODE folder to the following path:
 	"C:\Users[%Username%]\Documents\Qlik\Sense\Apps\"
 		
 3. EXECUTION 
@@ -57,7 +57,7 @@ There's a separate overview file there describing those code files.
 
 1.	Open Qlik Sense Desktop (on Windows, navigate to Programs -> Qlik Sense -> Qlik Sense Desktop)
 2.	Login to your account
-3.	On the Qlik Sense Hub, find the application called "Read It or Watch It" (it contains an image 		of a book with a clapper between the pages)
+3.	On the Qlik Sense Hub, find the application called "Read It or Watch It" (it contains an image of a book with a clapper between the pages)
 4.	Click on that Image to open up the Dashboard
 
 Navigating the Dashboard:
