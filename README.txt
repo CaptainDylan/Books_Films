@@ -1,11 +1,10 @@
-INTRODUCTION
-------------
+1. DESCRIPTION 
+---------------
 
-These instructions will help you get the 'Read It or Watch It?' Qlik Sense Dashboard up and running on your local machine.
+The instructions below will help you get the 'Read It or Watch It?' Qlik Sense Dashboard up and running on your local machine. The Qlik Sense file in the CODE folder is self-contained as it connects directly to our storage database and contains code within it, but we have also provided a folder with all the code used to compile our dataset in the CODE folder. There's a separate overview file there describing those code files. 
 
-
-PREREQUISITES
--------------
+2. INSTALLATION
+---------------
 
 1. 	Create a Qlik Sense Account and Download Qlik Sense
 
@@ -20,8 +19,10 @@ PREREQUISITES
 
 2.	Install Qlik Sense Desktop
 	
-	Important Note: While installing, be sure to include the Dashboard Bundle and the Visualization Bundle.
+	Important Note: While installing, be sure to include the Dashboard Bundle and the Visualization Bundle. 
 	There should be 2 checkboxes under "Supported extension bundles". Please check both.
+
+	Please note Qlik Sense Desktop requires a Windows OS. You can use a virtual machine if your native OS is not Windows.
 					
 3.	Download and Install Additional Extensions
 
@@ -45,22 +46,18 @@ PREREQUISITES
 	Once copied, you should have 2 new folders under the Extensions folder:
 		- C:\Users[%Username%]\Documents\Qlik\Sense\Extensions\cl-cards-v1.5.0
 		- C:\Users[%Username%]\Documents\Qlik\Sense\Extensions\mekaarogram-v0.8.1
-		
-INSTALL DASHBOARD
-------------------
 
-1.	All we will need to do is copy the "Read It or Watch It.qvf" file provided in this package to the following path:
+4.	To install our file, all you will need to do is copy the "Read It or Watch It.qvf" file provided 	 in the CODE folder to the following path:
 	"C:\Users[%Username%]\Documents\Qlik\Sense\Apps\"
 		
-START THE APPLICATION
+3. EXECUTION 
 ---------------------
 
 1.	Open Qlik Sense Desktop and login to your account
-2.	On the Qlik Sense Hub, find the application called "Read It or Watch It" (it contains an image of a book with a clapper between the pages)
+2.	On the Qlik Sense Hub, find the application called "Read It or Watch It" (it contains an image 		of a book with a clapper between the pages)
 3.	Click on that Image to open up the Dashboard
 
-NAVIGATING THE DASHBOARD
-------------------------
+Navigating the Dashboard:
 
 The Dashboard starts by showing you all sheets (pages) available for you to explore.
 We recommend that you start at the Home page: To Read or watch?
