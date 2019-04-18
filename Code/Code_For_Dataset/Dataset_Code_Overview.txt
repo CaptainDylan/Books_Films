@@ -1,7 +1,7 @@
 
-To run our project, you only need the .qvf file linked to in the project README. 
+To run our project, you only need the Read It or Watch It.qvf file in the main CODE folder. 
 
-Project nstructions also ask for code used to get and process our dataset. Qlik is directly connected to a mysql database where we have stored our dataset after gathering, processing, and topic analysis. Below is an overview of the steps and code files used for these steps and algorithms that happened OUTSIDE of the Qlik .qvf file to store, update, or add data in mysql that feeds into the .qvf file. Code files can be found in their numbered subfolders. 
+Project instructions also ask for code used to get and process our dataset. Qlik is directly connected to a mysql database where we have stored our dataset after gathering, processing, and topic analysis. Below is an overview of the steps and code files used for these steps and algorithms that happened OUTSIDE of the Qlik .qvf file to store, update, or add data in mysql that feeds into the .qvf file. Code files can be found in their numbered subfolders. 
 
 
 1. Getting Book/Movie Pairs
