@@ -1,7 +1,9 @@
 1. DESCRIPTION 
 ---------------
 
-The instructions below will help you get the 'Read It or Watch It?' Qlik Sense Dashboard up and running on your local machine. The Qlik Sense file in the CODE folder is self-contained as it connects directly to our storage database and contains code within it, but we have also provided a folder with all the code used to compile our dataset in the CODE folder. There's a separate overview file there describing those code files. 
+The instructions below will help you get the 'Read It or Watch It?' Qlik Sense Dashboard up and running on your local machine. 
+The Qlik Sense file in the CODE folder is self-contained as it connects directly to our storage database and contains code within it, but we have also provided a folder with all the code used to compile our dataset in the CODE folder. 
+There's a separate overview file there describing those code files. 
 
 2. INSTALLATION
 ---------------
@@ -53,9 +55,10 @@ The instructions below will help you get the 'Read It or Watch It?' Qlik Sense D
 3. EXECUTION 
 ---------------------
 
-1.	Open Qlik Sense Desktop and login to your account
-2.	On the Qlik Sense Hub, find the application called "Read It or Watch It" (it contains an image 		of a book with a clapper between the pages)
-3.	Click on that Image to open up the Dashboard
+1.	Open Qlik Sense Desktop (on Windows, navigate to Programs -> Qlik Sense -> Qlik Sense Desktop)
+2.	Login to your account
+3.	On the Qlik Sense Hub, find the application called "Read It or Watch It" (it contains an image 		of a book with a clapper between the pages)
+4.	Click on that Image to open up the Dashboard
 
 Navigating the Dashboard:
 
