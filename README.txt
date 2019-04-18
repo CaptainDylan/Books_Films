@@ -38,9 +38,9 @@ The instructions below will help you get the 'Read It or Watch It?' Qlik Sense D
 		
 	Installation guide:
 	
-	We have downloaded the 2 extensions to make it easier for you. We zipped them together in the Extensions.zip file in this package.
+	We have downloaded the 2 extensions to make it easier for you. We put them in a subfolder called Extensions in the main CODE folder. 
 	
-	Unzip the Extensions.zip file and copy the 2 folders (cl-cards-v1.5.0 and mekaarogram-v0.8.1) to the following folder:
+	Copy the 2 folders in the Extensions subfolder (cl-cards-v1.5.0 and mekaarogram-v0.8.1) to the following folder:
 	"C:\Users[%Username%]\Documents\Qlik\Sense\Extensions"
 		
 	Once copied, you should have 2 new folders under the Extensions folder:
