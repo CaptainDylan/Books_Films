@@ -14,7 +14,7 @@ PREREQUISITES
 	a.	If you are a professor or a student, take advantage of the Academic Program by applying here:
 		https://www.qlik.com/us/company/academic-program
 
-	b. 	If you are not a student, just register and download here:
+	b. 	If you are not a student or just don't want to obtain a student account, just register and download here:
 		https://www.qlik.com/us/try-or-buy/download-qlik-sense
 		
 
@@ -26,12 +26,14 @@ PREREQUISITES
 3.	Download and Install Additional Extensions
 
 	We made use of 2 additional free extensions to enhance our visualizations: 
-	
-	a.	Climber Cards
-		Table extension with cards as cells, developed for showcasing items with images
 		
-	b. 	Mekaarogram
-		A Qlik Sense extension used to display hierarchical structures from multiple dimensions
+	a. 	Mekaarogram
+		A Qlik Sense extension used to display hierarchical structures from multiple dimensions.
+		For more information, go to: https://github.com/miralemd/mekaarogram
+	
+	b.	Climber Cards
+		A Qlik Sense Table extension with cards as cells, developed for showcasing items with images.
+		For more information, go to: https://github.com/ClimberAB/ClimberCards
 		
 	Installation guide:
 	
@@ -53,7 +55,7 @@ INSTALL DASHBOARD
 START THE APPLICATION
 ---------------------
 
-1.	Open Qlik Sense Desktop and Login
+1.	Open Qlik Sense Desktop and login to your account
 2.	On the Qlik Sense Hub, find the application called "Read It or Watch It" (it contains an image of a book with a clapper between the pages)
 3.	Click on that Image to open up the Dashboard
 
@@ -62,6 +64,7 @@ NAVIGATING THE DASHBOARD
 
 The Dashboard starts by showing you all sheets (pages) available for you to explore.
 We recommend that you start at the Home page: To Read or watch?
-All you have to do is click on it to start (you will see a image that says "Start Here" with an arrow pointing to the sheet title: To Read or watch?)
+All you have to do is click on the image that says "Start Here" (with an arrow pointing to the sheet title: To Read or watch?)
 You should now see the Home Page which lists the Top Books and Movies, an interactive scatterplot, a bar chart with book/movie rating as well as navigation buttons at the top.
-Enjoy!
+
+Enjoy exploring more about your favorite movies and books!
