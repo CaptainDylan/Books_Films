@@ -61,5 +61,4 @@ Project instructions also ask for code used to get and process our dataset. Qlik
 	*  Take the preferred topic model and assign topics to books/movies by combining all the reviews into one “document”
 *  Visualization.ipynb, Visualization-Books.ipynb
 	*  Use LDAVis to get an interactive visualization of the topics
-
-Do we want to add any of the sentiment code from Lauren L or Lauren H? It didn't end up going in Qlik but we do have some of the visuals in the report
+*  Other code in R was used to investigate ideas in sentiment analysis prior to working through the LDA process.  This code was not used to create our final dataset and so has not been included here.
