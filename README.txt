@@ -1,0 +1,67 @@
+INTRODUCTION
+------------
+
+These instructions will help you get the 'Read It or Watch It?' Qlik Sense Dashboard up and running on your local machine.
+
+
+PREREQUISITES
+-------------
+
+1. 	Create a Qlik Sense Account and Download Qlik Sense
+
+	You will need to first create an account with Qlik to download Qlik Sense Desktop.
+
+	a.	If you are a professor or a student, take advantage of the Academic Program by applying here:
+		https://www.qlik.com/us/company/academic-program
+
+	b. 	If you are not a student, just register and download here:
+		https://www.qlik.com/us/try-or-buy/download-qlik-sense
+		
+
+2.	Install Qlik Sense Desktop
+	
+	Important Note: While installing, be sure to include the Dashboard Bundle and the Visualization Bundle.
+	There should be 2 checkboxes under "Supported extension bundles". Please check both.
+					
+3.	Download and Install Additional Extensions
+
+	We made use of 2 additional free extensions to enhance our visualizations: 
+	
+	a.	Climber Cards
+		Table extension with cards as cells, developed for showcasing items with images
+		
+	b. 	Mekaarogram
+		A Qlik Sense extension used to display hierarchical structures from multiple dimensions
+		
+	Installation guide:
+	
+	We have downloaded the 2 extensions to make it easier for you. We zipped them together in the Extensions.zip file in this package.
+	
+	Unzip the Extensions.zip file and copy the 2 folders (cl-cards-v1.5.0 and mekaarogram-v0.8.1) to the following folder:
+	"C:\Users[%Username%]\Documents\Qlik\Sense\Extensions"
+		
+	Once copied, you should have 2 new folders under the Extensions folder:
+		- C:\Users[%Username%]\Documents\Qlik\Sense\Extensions\cl-cards-v1.5.0
+		- C:\Users[%Username%]\Documents\Qlik\Sense\Extensions\mekaarogram-v0.8.1
+		
+INSTALL DASHBOARD
+------------------
+
+1.	All we will need to do is copy the "Read It or Watch It.qvf" file provided in this package to the following path:
+	"C:\Users[%Username%]\Documents\Qlik\Sense\Apps\"
+		
+START THE APPLICATION
+---------------------
+
+1.	Open Qlik Sense Desktop and Login
+2.	On the Qlik Sense Hub, find the application called "Read It or Watch It" (it contains an image of a book with a clapper between the pages)
+3.	Click on that Image to open up the Dashboard
+
+NAVIGATING THE DASHBOARD
+------------------------
+
+The Dashboard starts by showing you all sheets (pages) available for you to explore.
+We recommend that you start at the Home page: To Read or watch?
+All you have to do is click on it to start (you will see a image that says "Start Here" with an arrow pointing to the sheet title: To Read or watch?)
+You should now see the Home Page which lists the Top Books and Movies, an interactive scatterplot, a bar chart with book/movie rating as well as navigation buttons at the top.
+Enjoy!
