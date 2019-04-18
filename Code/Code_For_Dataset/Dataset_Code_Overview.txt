@@ -24,15 +24,14 @@ Project instructions also ask for code used to get and process our dataset. Qlik
 
 3. Movie Data Collection
 --------------------------
-* Movie TMDb Data API data collection - Lauren H could you flesh out some notes on these a little?
-    * Pulling the movie database data.ipynb
-    * Getting imdb ids.ipynb
-    * Collect budget revenue runtime and posterpath.ipynb
+* Movie TMDb Data API data collection 
+    * Pulling the movie database data.ipynb - in this script, we pull TMDb id and release dates. The release date is used to help match mvoie IDs to movie names in the Wikipedia list.  This script also corrected some troublesome items (for instance, Harry Potter was listed under one release date in the Wiki list) and drops items that could not be matched.  Finally, it links up the TMBd details with the Goodreads details.
+    * Getting imdb ids.ipynb - the next step was to obtain the IMDB id.  This script simply pulls the matching IMDb id for each TMDb id in our dataset.
+    * Collect budget revenue runtime and posterpath.ipynb - As the title of this script mentions, this script collects additional information from IMDb.  
 * Download Movie IMDB datasets here: https://www.imdb.com/interfaces/
-    * Lauren H - not sure which all tsvs were downloaded?
-    * Map imdbid to genre.ipynb
-    * Adding actor director data.ipynb
-    * Get rating and number of votes from IMDB.ipynb
+    * movie-basics.tsv, Map imdb to genre.ipynb - this file and script were used to obtain genre information
+    * imdb-cast.tsv, Adding actor director data.ipynb - this file and script were used to obtain cast information
+    * imdb-ratings.tsv, Get rating and number of votes from IMDB.ipynb - this file and script were used to get movie ratings and # of votes
 * Once you have the imdbids from TMDb API, run IMdb review scraping script: ScrapeIMDB.py
     * Upload output to mySQL
 
@@ -40,7 +39,7 @@ Project instructions also ask for code used to get and process our dataset. Qlik
 --------------------------
 * Run scripts to remove non-English reviews: Update Review Language.ipynb, Language Filter.ipynb
 * Connecting book/movie data: 
-    * Lauren H - add script for this?
+    * This was done within the Pulling the movie database data.ipynb file.  
 * Run script for genre cleaning/standardization: genre_standardization.ipynb
 * Run script for rating standardization: overallrating_standardize.ipynb
 * Review Text Cleaning scripts: 
@@ -59,7 +58,7 @@ Project instructions also ask for code used to get and process our dataset. Qlik
 *  Assign_Book_Review_Topics.ipynb, Assign_Movie_Review_Topics.ipynb
 	*  Take the preferred topic model and assign topics to individual reviews
 *  Assign_Book_Topics.ipynb, Assign_Movie_Topics.ipynb
-	*  Take the preferred topic model and assign topics to books/movies by combining all the reviews into one ìdocumentî
+	*  Take the preferred topic model and assign topics to books/movies by combining all the reviews into one ‚Äúdocument‚Äù
 *  Visualization.ipynb, Visualization-Books.ipynb
 	*  Use LDAVis to get an interactive visualization of the topics
 
