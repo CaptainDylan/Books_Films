@@ -51,13 +51,14 @@ There's a separate overview file there describing those code files.
 
 4.	To install our file, all you will need to do is copy the "Read It or Watch It.qvf" file provided in the CODE folder to the following path:
 	"C:\Users[%Username%]\Documents\Qlik\Sense\Apps\"
+	NOTE: You may need to wait a few minutes after Qlik Sense Desktop isinstalled for the Apps folder to show up.
 		
 3. EXECUTION 
 ---------------------
 
-1.	Open Qlik Sense Desktop (on Windows, navigate to Programs -> Qlik Sense -> Qlik Sense Desktop)
+1.	Open Qlik Sense Desktop (on Windows, navigate to Programs -> Qlik Sense -> Qlik  Sense Desktop)
 2.	Login with the account you created in step 1 under Installation
-3.	On the Qlik Sense Hub, find the application called "Read It or Watch It" (it contains an image of a book with a clapper between the pages)
+3.	On the Qlik Sense Hub, find the application called "Read It or Watch It" (it contains an image of a book with a  clapper between the pages)
 4.	Click on that Image to open up the Dashboard
 
 Navigating the Dashboard:
