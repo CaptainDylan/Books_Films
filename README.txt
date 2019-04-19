@@ -21,8 +21,7 @@ There's a separate overview file there describing those code files.
 
 2.	Install Qlik Sense Desktop by running the downloaded .exe file 
 	
-	Important Note: In the installation walkthrough, be sure to include the Dashboard Bundle and the Visualization Bundle. 
-	There should be 2 checkboxes under "Supported extension bundles". Please check both.
+	Important Note: In the installation walkthrough, be sure to include the Dashboard Bundle and the Visualization Bundle. You will see this option after you select "Install" (NOT "Custom Installation") and accepting the license agreement. There will be a page with 2 checkboxes under "Supported extension bundles". Please check both.
 
 	Please note Qlik Sense Desktop requires a Windows OS. You can use a virtual machine if your native OS is not Windows.
 					
@@ -51,7 +50,7 @@ There's a separate overview file there describing those code files.
 
 4.	To install our file, all you will need to do is copy the "Read It or Watch It.qvf" file provided in the CODE folder to the following path:
 	"C:\Users[%Username%]\Documents\Qlik\Sense\Apps\"
-	NOTE: You may need to wait a few minutes after Qlik Sense Desktop isinstalled for the Apps folder to show up.
+	NOTE: If you do not see the "Apps" folder show up automatically in this path, you can create it manually before dropping the qvf file in. 
 		
 3. EXECUTION 
 ---------------------
