@@ -19,9 +19,9 @@ There's a separate overview file there describing those code files.
 		https://www.qlik.com/us/try-or-buy/download-qlik-sense
 		
 
-2.	Install Qlik Sense Desktop
+2.	Install Qlik Sense Desktop by running the downloaded .exe file 
 	
-	Important Note: While installing, be sure to include the Dashboard Bundle and the Visualization Bundle. 
+	Important Note: In the installation walkthrough, be sure to include the Dashboard Bundle and the Visualization Bundle. 
 	There should be 2 checkboxes under "Supported extension bundles". Please check both.
 
 	Please note Qlik Sense Desktop requires a Windows OS. You can use a virtual machine if your native OS is not Windows.
@@ -42,7 +42,7 @@ There's a separate overview file there describing those code files.
 	
 	We have downloaded the 2 extensions to make it easier for you. We put them in a subfolder called Extensions in the main CODE folder. 
 	
-	Copy the 2 folders in the Extensions subfolder (cl-cards-v1.5.0 and mekaarogram-v0.8.1) to the following folder:
+	Copy the 2 folders in the Extensions subfolder (cl-cards-v1.5.0 and mekaarogram-v0.8.1) to the following folder on your local machine:
 	"C:\Users[%Username%]\Documents\Qlik\Sense\Extensions"
 		
 	Once copied, you should have 2 new folders under the Extensions folder:
@@ -56,7 +56,7 @@ There's a separate overview file there describing those code files.
 ---------------------
 
 1.	Open Qlik Sense Desktop (on Windows, navigate to Programs -> Qlik Sense -> Qlik Sense Desktop)
-2.	Login to your account
+2.	Login with the account you created in step 1 under Installation
 3.	On the Qlik Sense Hub, find the application called "Read It or Watch It" (it contains an image of a book with a clapper between the pages)
 4.	Click on that Image to open up the Dashboard
 
