@@ -1,3 +1,11 @@
+{{
+  config(
+    materialized='incremental',
+    unique_key=['imdbid'],
+    incremental_strategy='merge'
+  )
+}}
+
 WITH SCORES AS
 (
     SELECT imdbid, AVG(silhouette_score.silhouette_score) AS silhouette_score

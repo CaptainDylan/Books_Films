@@ -5,5 +5,5 @@ SELECT mr.imdbid, mr.id,
   WHERE mr.imdbid = m.imdbid
 ) AS nearest_cluster_distance
 FROM movies.movie_reviews mr
-WHERE mr.imdbid IN ('tt0449010','tt0185183','tt0100240','tt1192620')
+WHERE mr.imdbid IN (SELECT imdbid FROM movies.movie_silhouette_score)
 ORDER BY mr.id

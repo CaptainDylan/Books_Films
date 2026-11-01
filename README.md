@@ -4,6 +4,8 @@
 
 Given the number of movies that are sourced from pre-existing books, it is common for readers/movie viewers to ask the question: “Should I read the book, or should I watch the movie?”  Today, researching this question must be done manually, with many separate steps.  A prospective reader or movie viewer would visit individual movie and/or book review websites, Amazon reviews, and/or social media posts to get opinions on their path forward. 
 
+This project includes topic analysis using the gensim library. It also includes other topic level comparisons such as comparing distance metrics of each set of all the book reviews vs the movie reviews after generating embeddings.
+
 ## Getting Started
 
 These instructions will get you a copy of the Qlik Sense Dashboard and the additional Extensions used to get you up and running. 
@@ -22,3 +24,10 @@ You will need to first create an account with Qlik to download Qlik Sense Deskto
 ### 2. Install Qlik Sense Desktop
 
 * While installing, be sure to include the Dashboard and Visualization bundles.
+
+
+## License
+
+This project is licensed under the Mozilla Public License 2.0. 
+
+A copy of the license is included in the [LICENSE](LICENSE) file, or you can read it online at the [Official Mozilla MPL 2.0 Portal](https://mozilla.org).
