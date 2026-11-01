@@ -45,7 +45,7 @@ There are several items to add to the analysis:
 
 ### 7. Fine tuning a model to do aspect based sentiment analysis (advanced option)
 
-### 8. Identifying salient features using SHAP/LIME. Create a classifier model and use explanable techniques to identify important words or phrases (advanced option)
+### 8. Identifying salient features using SHAP/LIME. Create a classifier model and use explainable techniques to identify important words or phrases (advanced option)
 
 ## License
 
