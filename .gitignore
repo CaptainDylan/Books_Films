@@ -3,3 +3,44 @@
 target/
 dbt_packages/
 logs/
+/.vs/Books_Films
+.vs/
+
+# Caches and Python internals
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and Secrets
+.env
+.env.*
+secrets.toml
+*.pem
+*.key
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# dbt specific outputs
+target/
+dbt_packages/
+dbt_modules/
+logs/
+
+# IDE and OS files
+.DocumentRevisions-V1/
+.DS_Store
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+/.vs
